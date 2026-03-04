@@ -1,0 +1,102 @@
+[
+  {
+    "year": 1964,
+    "event": "Born in Farnborough, Kent",
+    "category": "personal"
+  },
+  {
+    "year": 1982,
+    "event": "Joined the Conservative Party",
+    "category": "politics"
+  },
+  {
+    "year": 1982,
+    "event": "Started career as a commodities trader in the City of London",
+    "category": "career"
+  },
+  {
+    "year": 1992,
+    "event": "Left the Conservative Party over Maastricht Treaty",
+    "category": "politics"
+  },
+  {
+    "year": 1993,
+    "event": "Founding member of UKIP (UK Independence Party)",
+    "category": "politics"
+  },
+  {
+    "year": 1999,
+    "event": "Elected as MEP for South East England",
+    "category": "politics"
+  },
+  {
+    "year": 2006,
+    "event": "Became UKIP Leader (first term)",
+    "category": "politics"
+  },
+  {
+    "year": 2009,
+    "event": "Stepped down as UKIP leader",
+    "category": "politics"
+  },
+  {
+    "year": 2010,
+    "event": "Survived plane crash on election day",
+    "category": "personal"
+  },
+  {
+    "year": 2010,
+    "event": "Re-elected as UKIP leader",
+    "category": "politics"
+  },
+  {
+    "year": 2014,
+    "event": "UKIP wins European elections with 27.5% of vote",
+    "category": "politics"
+  },
+  {
+    "year": 2016,
+    "event": "Led Vote Leave campaign - Brexit referendum won",
+    "category": "politics"
+  },
+  {
+    "year": 2016,
+    "event": "Resigned as UKIP leader after referendum victory",
+    "category": "politics"
+  },
+  {
+    "year": 2019,
+    "event": "Founded Brexit Party",
+    "category": "politics"
+  },
+  {
+    "year": 2019,
+    "event": "Brexit Party wins European elections",
+    "category": "politics"
+  },
+  {
+    "year": 2021,
+    "event": "Brexit Party rebranded to Reform UK",
+    "category": "politics"
+  },
+  {
+    "year": 2024,
+    "event": "Elected MP for Clacton - first Westminster seat",
+    "category": "politics"
+  },
+  {
+    "year": 2024,
+    "event": "Became Leader of Reform UK",
+    "category": "politics"
+  },
+  {
+    "year": 2025,
+    "event": "Reform UK leads national polls",
+    "category": "politics"
+  },
+  {
+    "year": 2026,
+    "event": "Announced Reform UK frontbench team",
+    "category": "politics"
+  }
+]

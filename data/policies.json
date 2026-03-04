@@ -1,0 +1,58 @@
+{
+  "lastUpdated": "2026-03-01",
+  "policies": [
+    {
+      "category": "Immigration",
+      "positions": [
+        "Freeze all non-essential immigration",
+        "Leave the European Convention on Human Rights",
+        "Deport illegal immigrants",
+        "Points-based immigration system"
+      ]
+    },
+    {
+      "category": "Economy",
+      "positions": [
+        "Cut taxes and reduce government spending",
+        "Abolish inheritance tax",
+        "Raise income tax threshold to £20,000",
+        "Scrap net zero policies"
+      ]
+    },
+    {
+      "category": "Electoral Reform",
+      "positions": [
+        "Restrict postal voting",
+        "Voter ID requirements",
+        "Only British citizens to vote in national elections"
+      ]
+    },
+    {
+      "category": "Energy",
+      "positions": [
+        "Scrap net zero by 2050 target",
+        "Fast-track North Sea oil and gas",
+        "No new wind farms",
+        "Embrace fracking"
+      ]
+    },
+    {
+      "category": "NHS & Health",
+      "positions": [
+        "Bring back matrons",
+        "Cut NHS management",
+        "Train more British doctors",
+        "Insurance-based system considerations"
+      ]
+    },
+    {
+      "category": "Foreign Policy",
+      "positions": [
+        "Strong UK-US relationship",
+        "Skeptical of EU involvement",
+        "Support for Israel",
+        "Review foreign aid spending"
+      ]
+    }
+  ]
+}

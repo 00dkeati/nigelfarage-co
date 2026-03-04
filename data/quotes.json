@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "quote": "We want our country back.",
+    "context": "Brexit campaign slogan",
+    "date": "2016-06-23",
+    "source": "EU Referendum Campaign",
+    "category": ["brexit", "immigration"]
+  },
+  {
+    "id": 2,
+    "quote": "This will be a victory for real people, a victory for ordinary people, a victory for decent people.",
+    "context": "Brexit referendum victory speech",
+    "date": "2016-06-24",
+    "source": "BBC News",
+    "category": ["brexit"]
+  },
+  {
+    "id": 3,
+    "quote": "There is no Left and Right any more. We need big change. We've got to get back control of our country.",
+    "context": "On political realignment",
+    "date": "2024",
+    "source": "Interview",
+    "category": ["politics", "reform"]
+  },
+  {
+    "id": 4,
+    "quote": "Rather than bring peace and harmony, the EU will cause insurgency and violence.",
+    "context": "Response to EU winning Nobel Peace Prize",
+    "date": "2012-10-19",
+    "source": "Zimbabwe Independent",
+    "category": ["eu", "foreign-policy"]
+  },
+  {
+    "id": 5,
+    "quote": "The banking collapse was caused, more than anything, by bad government policy.",
+    "context": "European Parliament speech",
+    "date": "2010",
+    "source": "EU Parliament",
+    "category": ["economy"]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Farage accused of 'Trump-style election denial' after Gorton byelection",
+    "summary": "Green MP Hannah Spencer accuses Farage of insulting voters after he claimed Reform 'came first' among British-born voters despite losing by 4,000 votes.",
+    "source": "The Guardian",
+    "date": "2026-03-02",
+    "url": "https://www.theguardian.com/politics/2026/mar/02/nigel-farage-emulating-his-hero-trump-gorton-and-denton-byelection-hannah-spencer",
+    "category": "politics"
+  },
+  {
+    "id": 2,
+    "title": "Farage to unveil Labour defectors 'next week'",
+    "summary": "Reform UK leader confirms 'a couple' of Labour MPs are set to defect to his party in a major blow to Keir Starmer.",
+    "source": "Daily Express",
+    "date": "2026-03-02",
+    "url": "https://www.express.co.uk/news/politics/2177287/nigel-farage-labour-defection-reform-uk",
+    "category": "politics"
+  },
+  {
+    "id": 3,
+    "title": "Farage paid £27,000 to speak at pro-Trump US think tank",
+    "summary": "Reform leader to collect nearly £28k from Club for Growth, a conservative anti-tax lobby group with close ties to President Trump.",
+    "source": "DeSmog",
+    "date": "2026-02-26",
+    "url": "https://www.desmog.com/2026/02/26/nigel-farage-to-be-paid-27000-to-speak-at-pro-trump-u-s-think-tank/",
+    "category": "international"
+  },
+  {
+    "id": 4,
+    "title": "Reform UK unveils plans to restrict postal voting",
+    "summary": "Party announces electoral reform proposals including removing voting rights for Commonwealth citizens in national elections.",
+    "source": "Metro",
+    "date": "2026-03-01",
+    "url": "https://metro.co.uk/2026/03/01/nigel-farage-says-allow-british-citizens-vote-uk-elections-27169537/",
+    "category": "policy"
+  },
+  {
+    "id": 5,
+    "title": "Suella Braverman defects to Reform UK",
+    "summary": "Former Conservative Home Secretary joins Farage's party, saying 'I feel like I've come home' to cheering crowds.",
+    "source": "NBC News",
+    "date": "2026-02-24",
+    "url": "https://www.nbcnews.com/world/united-kingdom/reform-uk-braverman-maga-nigel-farage-trump-rcna256459",
+    "category": "politics"
+  },
+  {
+    "id": 6,
+    "title": "Farage announces Reform UK frontbench team",
+    "summary": "Reform leader unveils shadow cabinet as party positions itself as serious contender for government.",
+    "source": "Politico",
+    "date": "2026-02-17",
+    "url": "https://www.politico.eu/article/uk-nigel-farage-reform-new-team-tells-us-about-bid-run-britain/",
+    "category": "politics"
+  }
+]

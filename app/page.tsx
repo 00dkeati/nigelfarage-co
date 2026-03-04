@@ -1,5 +1,6 @@
 import quotes from '@/data/quotes.json'
 import timeline from '@/data/timeline.json'
+import news from '@/data/news.json'
 
 export default function Home() {
   const latestEvents = timeline.slice(-3).reverse()
@@ -70,8 +71,41 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Recent Timeline */}
+      {/* Latest News */}
       <section className="py-12 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Latest News</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {news.slice(0, 4).map((item) => (
+              <a 
+                key={item.id} 
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow block"
+              >
+                <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-xs capitalize">
+                    {item.category}
+                  </span>
+                  <span>•</span>
+                  <span>{item.source}</span>
+                </div>
+                <h3 className="font-bold mb-2 hover:text-blue-600">{item.title}</h3>
+                <p className="text-gray-600 text-sm">{item.summary}</p>
+              </a>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <a href="/news" className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+              All News →
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Recent Timeline */}
+      <section className="py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8">Recent Events</h2>
           <div className="space-y-4">

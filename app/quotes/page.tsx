@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 }
 
 export default function QuotesPage() {
-  const categories = [...new Set(quotes.flatMap(q => q.category))]
+  const categories = Array.from(new Set(quotes.flatMap(q => q.category)))
   
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">

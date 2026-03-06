@@ -8,7 +8,23 @@ export const metadata: Metadata = {
 export default function BiographyPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-8">Nigel Farage: A Biography</h1>
+      <div className="flex flex-col md:flex-row gap-8 mb-12">
+        <div className="md:w-1/3">
+          <img 
+            src="/images/official-portrait-mp.jpg" 
+            alt="Nigel Farage Official Portrait" 
+            className="w-full rounded-lg shadow-lg"
+          />
+          <p className="text-sm text-gray-500 mt-2 text-center">Official UK Parliament Portrait, 2024</p>
+        </div>
+        <div className="md:w-2/3">
+          <h1 className="text-4xl font-bold mb-4">Nigel Farage: A Biography</h1>
+          <p className="text-xl text-gray-600">
+            From City trader to Brexit architect to Reform UK leader — the political journey 
+            of Britain's most consequential populist politician.
+          </p>
+        </div>
+      </div>
       
       <div className="prose prose-lg max-w-none">
         <section className="mb-12">
@@ -40,6 +56,14 @@ export default function BiographyPage() {
 
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 text-blue-800">European Parliament Years</h2>
+          <div className="float-right ml-6 mb-4 w-64">
+            <img 
+              src="/images/nigel_farage_mep_1_strasbourg_-_diliff.jpg" 
+              alt="Farage at European Parliament in Strasbourg" 
+              className="rounded-lg shadow-lg"
+            />
+            <p className="text-xs text-gray-500 mt-1">MEP Farage at the European Parliament, Strasbourg</p>
+          </div>
           <p className="mb-4">
             Farage was elected to the European Parliament in 1999 as an MEP for South East 
             England, a position he would hold until Brexit was completed. Known for his 
@@ -51,6 +75,7 @@ export default function BiographyPage() {
             his clashes with EU Presidents and his characterisation of the European Parliament 
             as undemocratic.
           </p>
+          <div className="clear-both"></div>
         </section>
 
         <section className="mb-12">
@@ -66,6 +91,14 @@ export default function BiographyPage() {
 
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 text-blue-800">Brexit Campaign</h2>
+          <div className="float-left mr-6 mb-4 w-64">
+            <img 
+              src="/images/nigel_farage_and_passport_26437065840.jpg" 
+              alt="Farage during Brexit campaign with British passport" 
+              className="rounded-lg shadow-lg"
+            />
+            <p className="text-xs text-gray-500 mt-1">Farage campaigning for Brexit, 2016</p>
+          </div>
           <p className="mb-4">
             Farage was a central figure in the 2016 EU referendum campaign, leading the 
             Leave.EU campaign alongside Arron Banks. His "Breaking Point" poster showing 
@@ -76,6 +109,7 @@ export default function BiographyPage() {
             it "Independence Day" for Britain. He resigned as UKIP leader shortly after, 
             stating his political ambition had been achieved.
           </p>
+          <div className="clear-both"></div>
         </section>
 
         <section className="mb-12">
@@ -93,6 +127,14 @@ export default function BiographyPage() {
 
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-4 text-blue-800">MP for Clacton</h2>
+          <div className="float-right ml-6 mb-4 w-64">
+            <img 
+              src="/images/nigel_farage_in_parliament.jpg" 
+              alt="Farage in the House of Commons" 
+              className="rounded-lg shadow-lg"
+            />
+            <p className="text-xs text-gray-500 mt-1">In the House of Commons, 2024</p>
+          </div>
           <p className="mb-4">
             After seven failed attempts to win a Westminster seat, Farage was finally 
             elected as MP for Clacton in the 2024 general election. Reform UK won five 
@@ -103,6 +145,15 @@ export default function BiographyPage() {
             a serious contender for government. By 2025, Reform UK was consistently 
             leading national opinion polls.
           </p>
+          <div className="my-6 p-4 bg-gray-100 rounded-lg">
+            <img 
+              src="/images/reform_mps_in_parliament.jpg" 
+              alt="Reform UK MPs in Parliament" 
+              className="rounded-lg shadow-lg w-full"
+            />
+            <p className="text-sm text-gray-600 mt-2 text-center">Reform UK MPs in the House of Commons</p>
+          </div>
+          <div className="clear-both"></div>
         </section>
 
         <section className="mb-12">

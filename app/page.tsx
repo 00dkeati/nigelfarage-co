@@ -9,19 +9,30 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a87] text-white py-20 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <img src="/images/hero-placeholder.svg" alt="" className="w-full h-full object-cover" />
+      <section className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a87] text-white py-16 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <img src="/images/nigel_farage_stage_june_2024_cropped.jpg" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="max-w-6xl mx-auto px-4 relative z-10">
-          <h1 className="text-5xl font-bold mb-4">Nigel Farage</h1>
-          <p className="text-xl text-blue-100 mb-6">
-            Leader of Reform UK • Former UKIP Leader • Brexit Architect • MP for Clacton
-          </p>
-          <div className="flex flex-wrap gap-4 text-sm">
-            <span className="bg-white/20 px-4 py-2 rounded-full">🗳️ Reform UK: ~23% in polls</span>
-            <span className="bg-white/20 px-4 py-2 rounded-full">🏛️ 5 Reform UK MPs</span>
-            <span className="bg-white/20 px-4 py-2 rounded-full">📅 Born: 3 April 1964</span>
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-shrink-0">
+              <img 
+                src="/images/official-portrait-mp.jpg" 
+                alt="Nigel Farage - Official Parliamentary Portrait"
+                className="w-48 h-60 object-cover rounded-lg shadow-2xl border-4 border-white/20"
+              />
+            </div>
+            <div>
+              <h1 className="text-5xl font-bold mb-4">Nigel Farage</h1>
+              <p className="text-xl text-blue-100 mb-6">
+                Leader of Reform UK • Former UKIP Leader • Brexit Architect • MP for Clacton
+              </p>
+              <div className="flex flex-wrap gap-4 text-sm">
+                <span className="bg-white/20 px-4 py-2 rounded-full">🗳️ Reform UK: ~23% in polls</span>
+                <span className="bg-white/20 px-4 py-2 rounded-full">🏛️ 5 Reform UK MPs</span>
+                <span className="bg-white/20 px-4 py-2 rounded-full">📅 Born: 3 April 1964</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -104,6 +115,40 @@ export default function Home() {
               All News →
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Photo Gallery */}
+      <section className="py-12">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">Photo Gallery</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/nigel_farage_in_parliament.jpg" alt="Nigel Farage in Parliament" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/reform_mps_in_parliament.jpg" alt="Reform UK MPs" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/donald_trump_and_nigel_farage_behind_the_scene_of_2018_cpac_cropped.jpg" alt="Farage with Donald Trump" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/nigel_farage_addressing_reform_uk_rally_at_trago_mills_devon.jpg" alt="Reform UK Rally" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/european_elections_2019_-_vote_nigel_farage_efdd_uk_efdd_group_leader_in_the_uk_01.jpg" alt="EU Elections 2019" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/gallois_and_farage_31_janvier_2020.jpg" alt="Brexit Day Celebration" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/nigel_farage_mep_1_strasbourg_-_diliff.jpg" alt="Farage at European Parliament" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-lg shadow-lg">
+              <img src="/images/prime_ministers_questions_11_september_2024_22.jpg" alt="Prime Minister's Questions" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+            </div>
+          </div>
+          <p className="text-center text-sm text-gray-500 mt-4">Images from Wikimedia Commons • CC BY-SA</p>
         </div>
       </section>
 

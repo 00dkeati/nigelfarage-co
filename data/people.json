@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nigel-farage",
+    "slug": "nigel-farage",
+    "name": "Nigel Farage",
+    "role": "Leader of Reform UK",
+    "constituency": "Clacton",
+    "party": "Reform UK",
+    "born": "1964-04-03",
+    "description": "Founder of UKIP, architect of Brexit, and leader of Reform UK. The most influential British politician never to hold cabinet office.",
+    "category": "leader"
+  },
+  {
+    "id": "richard-tice",
+    "slug": "richard-tice",
+    "name": "Richard Tice",
+    "role": "Chairman of Reform UK",
+    "constituency": "Boston and Skegness",
+    "party": "Reform UK",
+    "born": "1964-05-12",
+    "description": "Co-founder of Leave.EU and chairman of Reform UK. Property developer turned politician.",
+    "category": "leadership"
+  },
+  {
+    "id": "suella-braverman",
+    "slug": "suella-braverman",
+    "name": "Suella Braverman",
+    "role": "Reform UK Frontbench",
+    "constituency": "Fareham and Waterlooville",
+    "party": "Reform UK",
+    "born": "1980-04-03",
+    "description": "Former Conservative Home Secretary who defected to Reform UK in January 2026.",
+    "previousParty": "Conservative",
+    "category": "frontbench"
+  },
+  {
+    "id": "lee-anderson",
+    "slug": "lee-anderson",
+    "name": "Lee Anderson",
+    "role": "Reform UK MP",
+    "constituency": "Ashfield",
+    "party": "Reform UK",
+    "born": "1967-06-22",
+    "description": "Former Labour and Conservative MP who defected to Reform UK in 2024.",
+    "previousParty": "Conservative",
+    "category": "mp"
+  },
+  {
+    "id": "rupert-lowe",
+    "slug": "rupert-lowe",
+    "name": "Rupert Lowe",
+    "role": "Reform UK MP",
+    "constituency": "Great Yarmouth",
+    "party": "Reform UK",
+    "born": "1956-03-04",
+    "description": "Former Southampton FC chairman, elected as Reform UK MP in 2024.",
+    "category": "mp"
+  },
+  {
+    "id": "ann-widdecombe",
+    "slug": "ann-widdecombe",
+    "name": "Ann Widdecombe",
+    "role": "Former Brexit Party MEP",
+    "party": "Reform UK",
+    "born": "1947-10-04",
+    "description": "Former Conservative cabinet minister who joined the Brexit Party in 2019.",
+    "previousParty": "Conservative",
+    "category": "former"
+  },
+  {
+    "id": "arron-banks",
+    "slug": "arron-banks",
+    "name": "Arron Banks",
+    "role": "Leave.EU Co-founder",
+    "party": "Independent",
+    "born": "1966-03-22",
+    "description": "Businessman and major donor who co-founded Leave.EU with Farage.",
+    "category": "ally"
+  }
+]

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "brexit",
+    "slug": "brexit",
+    "title": "Brexit",
+    "subtitle": "Britain's Exit from the European Union",
+    "description": "Nigel Farage dedicated over 25 years to the cause of British independence from the EU. From founding UKIP in 1993 to leading the Leave campaign in 2016, Brexit was his life's work.",
+    "keyDates": [
+      {"date": "1993", "event": "Co-founds UKIP to campaign for EU withdrawal"},
+      {"date": "2016-06-23", "event": "Brexit referendum - Leave wins 52-48%"},
+      {"date": "2020-01-31", "event": "UK officially leaves the EU"}
+    ],
+    "relatedQuotes": [1, 2, 10, 13],
+    "category": "major"
+  },
+  {
+    "id": "immigration",
+    "slug": "immigration",
+    "title": "Immigration",
+    "subtitle": "Border Control and Migration Policy",
+    "description": "Immigration has been central to Farage's political message. He argues for strict border controls, reduced net migration, and leaving international conventions that limit deportations.",
+    "keyPositions": [
+      "Leave the European Convention on Human Rights",
+      "Freeze non-essential immigration",
+      "Points-based immigration system",
+      "Deport illegal immigrants"
+    ],
+    "relatedQuotes": [1, 12, 13],
+    "category": "major"
+  },
+  {
+    "id": "european-union",
+    "slug": "european-union",
+    "title": "The European Union",
+    "subtitle": "Farage's 17-Year Battle in Brussels",
+    "description": "Farage served as an MEP from 1999 to 2020, using the European Parliament as a platform to criticise the EU from within. His speeches went viral and made him internationally known.",
+    "keyDates": [
+      {"date": "1999", "event": "Elected as MEP for South East England"},
+      {"date": "2010", "event": "Famous 'Who are you?' speech to Van Rompuy"},
+      {"date": "2020", "event": "Final speech in EU Parliament before Brexit"}
+    ],
+    "relatedQuotes": [4, 7, 8, 9],
+    "category": "major"
+  },
+  {
+    "id": "reform-uk",
+    "slug": "reform-uk-party",
+    "title": "Reform UK",
+    "subtitle": "Building a New Political Movement",
+    "description": "After Brexit was achieved, Farage pivoted to domestic reform. Reform UK aims to challenge the two-party system and has led national polls since 2025.",
+    "keyDates": [
+      {"date": "2021", "event": "Brexit Party rebrands as Reform UK"},
+      {"date": "2024", "event": "Farage becomes leader, wins Clacton seat"},
+      {"date": "2025", "event": "Reform leads national polls"}
+    ],
+    "relatedQuotes": [3, 16, 17, 19, 20],
+    "category": "major"
+  },
+  {
+    "id": "net-zero",
+    "slug": "net-zero-climate",
+    "title": "Net Zero & Climate Policy",
+    "subtitle": "Opposition to Green Policies",
+    "description": "Farage opposes net zero targets, calling them economically destructive. Reform UK advocates scrapping the 2050 net zero target and expanding fossil fuel production.",
+    "keyPositions": [
+      "Scrap net zero by 2050 target",
+      "Fast-track North Sea oil and gas",
+      "No new wind farms",
+      "Embrace fracking"
+    ],
+    "relatedQuotes": [18],
+    "category": "policy"
+  },
+  {
+    "id": "trump",
+    "slug": "donald-trump",
+    "title": "Donald Trump",
+    "subtitle": "The Special Relationship",
+    "description": "Farage was the first foreign politician to meet Trump after his 2016 election. They share political allies, rhetoric, and a mutual admiration.",
+    "keyDates": [
+      {"date": "2016-11-12", "event": "First foreign politician to meet President-elect Trump"},
+      {"date": "2024", "event": "Spoke at Trump rally during US election"}
+    ],
+    "category": "international"
+  },
+  {
+    "id": "nhs",
+    "slug": "nhs-health",
+    "title": "NHS & Healthcare",
+    "subtitle": "Reform UK's Health Policies",
+    "description": "Reform UK's NHS policies have evolved over time. The party advocates cutting management, training more British doctors, and has discussed insurance-based models.",
+    "keyPositions": [
+      "Cut NHS management and bureaucracy",
+      "Train more British doctors and nurses",
+      "Bring back matrons",
+      "Consider insurance-based elements"
+    ],
+    "category": "policy"
+  },
+  {
+    "id": "economy",
+    "slug": "economy-tax",
+    "title": "Economy & Taxation",
+    "subtitle": "Low Tax, Small State",
+    "description": "Farage advocates for lower taxes, reduced government spending, and economic liberalism. Reform UK proposes abolishing inheritance tax and raising income tax thresholds.",
+    "keyPositions": [
+      "Abolish inheritance tax",
+      "Raise income tax threshold to £20,000",
+      "Cut government spending",
+      "Reduce regulations on business"
+    ],
+    "relatedQuotes": [5, 7],
+    "category": "policy"
+  }
+]

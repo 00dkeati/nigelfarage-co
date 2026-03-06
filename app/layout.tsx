@@ -29,9 +29,10 @@ export default function RootLayout({
               <div className="hidden md:flex space-x-6">
                 <a href="/biography" className="hover:text-blue-200">Biography</a>
                 <a href="/quotes" className="hover:text-blue-200">Quotes</a>
-                <a href="/reform-uk" className="hover:text-blue-200">Reform UK</a>
+                <a href="/speeches" className="hover:text-blue-200">Speeches</a>
+                <a href="/topics" className="hover:text-blue-200">Topics</a>
+                <a href="/people" className="hover:text-blue-200">People</a>
                 <a href="/news" className="hover:text-blue-200">News</a>
-                <a href="/timeline" className="hover:text-blue-200">Timeline</a>
               </div>
             </div>
           </div>

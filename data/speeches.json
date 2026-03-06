@@ -1,0 +1,62 @@
+[
+  {
+    "id": "who-are-you-van-rompuy",
+    "slug": "who-are-you-van-rompuy-2010",
+    "title": "Who Are You? - Attack on Van Rompuy",
+    "date": "2010-02-24",
+    "venue": "European Parliament",
+    "description": "Farage's infamous attack on EU President Herman Van Rompuy, calling him a 'damp rag' with the 'charisma of a low-grade bank clerk'.",
+    "videoUrl": "https://www.youtube.com/watch?v=bypLwI5AQvY",
+    "transcript": "Good morning, Mr Van Rompuy. You've been in office for one year, and in that time the whole edifice is crumbling, the euro is crumbling, the move towards war is crumbling, and yet in your state of the union address you present a vision of the EUropean state... I don't want to be rude, but really, you have the charisma of a damp rag and the appearance of a low-grade bank clerk. The question that I want to ask, that we're all going to ask, is: Who are you? I'd never heard of you. Nobody in Europe had ever heard of you.",
+    "views": "5000000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "brexit-victory-speech",
+    "slug": "brexit-victory-speech-2016",
+    "title": "Brexit Victory Speech - Independence Day",
+    "date": "2016-06-24",
+    "venue": "Leave.EU Rally, London",
+    "description": "Farage's triumphant speech declaring victory in the EU referendum.",
+    "videoUrl": "https://www.youtube.com/watch?v=example",
+    "transcript": "Dare to dream that the dawn is breaking on an independent United Kingdom. This, if the predictions are right, this will be a victory for real people, a victory for ordinary people, a victory for decent people. We have fought against the multinationals, we have fought against the big merchant banks, we have fought against big politics, we have fought against lies, corruption and deceit. And today honesty, decency and belief in nation, I think, has won.",
+    "views": "2000000",
+    "category": "brexit"
+  },
+  {
+    "id": "you-are-not-laughing-now",
+    "slug": "you-are-not-laughing-now-2016",
+    "title": "You're Not Laughing Now",
+    "date": "2016-06-28",
+    "venue": "European Parliament",
+    "description": "Farage's post-Brexit speech to the European Parliament, taunting MEPs who had previously mocked him.",
+    "videoUrl": "https://www.youtube.com/watch?v=example2",
+    "transcript": "When I came here 17 years ago and I said that I wanted to lead a campaign to get Britain out of the European Union, you all laughed at me. Well I have to say, you're not laughing now, are you?",
+    "views": "3000000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "euro-titanic",
+    "slug": "euro-titanic-iceberg-2011",
+    "title": "The Euro Titanic Has Hit the Iceberg",
+    "date": "2011-11-16",
+    "venue": "European Parliament",
+    "description": "Farage's speech during the eurozone crisis comparing the EU to the Titanic.",
+    "videoUrl": "https://www.youtube.com/watch?v=example3",
+    "transcript": "The euro Titanic has now hit the iceberg and sadly there simply aren't enough lifeboats. I feel that the even more dramatic events are just around the corner.",
+    "views": "1500000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "clacton-victory-2024",
+    "slug": "clacton-victory-speech-2024",
+    "title": "Clacton Victory Speech",
+    "date": "2024-07-05",
+    "venue": "Clacton-on-Sea",
+    "description": "Farage's speech after finally winning a Westminster seat on his eighth attempt.",
+    "videoUrl": "https://www.youtube.com/watch?v=example4",
+    "transcript": "This is the inflection point. This is the beginning of the end of the socialist Labour government. This is the beginning of a political revolt.",
+    "views": "500000",
+    "category": "reform"
+  }
+]

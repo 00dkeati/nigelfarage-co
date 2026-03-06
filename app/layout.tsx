@@ -5,12 +5,16 @@ export const metadata: Metadata = {
   title: 'Nigel Farage - Biography, Quotes, News & Reform UK',
   description: 'The definitive resource on Nigel Farage. Biography, quotes, Reform UK policies, news, and political timeline.',
   keywords: ['Nigel Farage', 'Reform UK', 'Brexit', 'British Politics', 'UKIP'],
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'NigelFarage.co - The Definitive Resource',
     description: 'Biography, quotes, news and everything about Nigel Farage and Reform UK',
     url: 'https://nigelfarage.co',
     siteName: 'NigelFarage.co',
     type: 'website',
+    images: ['/images/hero-placeholder.svg'],
   },
 }
 

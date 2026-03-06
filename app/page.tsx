@@ -9,8 +9,11 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a87] text-white py-20">
-        <div className="max-w-6xl mx-auto px-4">
+      <section className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a87] text-white py-20 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <img src="/images/hero-placeholder.svg" alt="" className="w-full h-full object-cover" />
+        </div>
+        <div className="max-w-6xl mx-auto px-4 relative z-10">
           <h1 className="text-5xl font-bold mb-4">Nigel Farage</h1>
           <p className="text-xl text-blue-100 mb-6">
             Leader of Reform UK • Former UKIP Leader • Brexit Architect • MP for Clacton

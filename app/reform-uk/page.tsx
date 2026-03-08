@@ -4,6 +4,14 @@ import policies from '@/data/policies.json'
 export const metadata: Metadata = {
   title: 'Reform UK Policies - What Does Reform UK Stand For?',
   description: 'Complete breakdown of Reform UK policies on immigration, economy, NHS, energy and more. Led by Nigel Farage.',
+  alternates: {
+    canonical: '/reform-uk',
+  },
+  openGraph: {
+    title: 'Reform UK Policies - What Does Reform UK Stand For?',
+    description: 'Complete breakdown of Reform UK policies on immigration, economy, NHS, energy and more. Led by Nigel Farage.',
+    url: '/reform-uk',
+  },
 }
 
 export default function ReformUKPage() {

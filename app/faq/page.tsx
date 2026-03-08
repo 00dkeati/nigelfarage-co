@@ -4,6 +4,14 @@ import faq from '@/data/faq.json'
 export const metadata: Metadata = {
   title: 'FAQ - Frequently Asked Questions About Nigel Farage',
   description: 'Common questions about Nigel Farage answered: his age, net worth, political career, Reform UK, Brexit, and more.',
+  alternates: {
+    canonical: '/faq',
+  },
+  openGraph: {
+    title: 'FAQ - Frequently Asked Questions About Nigel Farage',
+    description: 'Common questions about Nigel Farage answered: his age, net worth, political career, Reform UK, Brexit, and more.',
+    url: '/faq',
+  },
 }
 
 export default function FAQPage() {

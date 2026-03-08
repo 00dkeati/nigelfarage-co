@@ -1,6 +1,13 @@
+import { Metadata } from 'next'
 import quotes from '@/data/quotes.json'
 import timeline from '@/data/timeline.json'
 import news from '@/data/news.json'
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/',
+  },
+}
 
 export default function Home() {
   const latestEvents = timeline.slice(-3).reverse()

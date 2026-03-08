@@ -2,7 +2,21 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Nigel Farage Biography - Life, Career & Political Journey',
-  description: 'Complete biography of Nigel Farage from his early life in Kent to becoming Leader of Reform UK and MP for Clacton.',
+  description: 'Complete biography of Nigel Farage from his early life in Kent to becoming Leader of Reform UK and MP for Clacton. Birth, education, UKIP, Brexit, and beyond.',
+  alternates: {
+    canonical: '/biography',
+  },
+  openGraph: {
+    title: 'Nigel Farage Biography - Life, Career & Political Journey',
+    description: 'Complete biography of Nigel Farage from his early life in Kent to becoming Leader of Reform UK and MP for Clacton.',
+    url: '/biography',
+    images: [{
+      url: '/images/official-portrait-mp.jpg',
+      width: 800,
+      height: 1000,
+      alt: 'Nigel Farage Official Portrait',
+    }],
+  },
 }
 
 export default function BiographyPage() {

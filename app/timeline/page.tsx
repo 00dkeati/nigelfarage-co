@@ -3,7 +3,15 @@ import timeline from '@/data/timeline.json'
 
 export const metadata: Metadata = {
   title: 'Nigel Farage Timeline - Key Events & Milestones',
-  description: 'Complete timeline of Nigel Farage\'s life and political career from 1964 to present.',
+  description: 'Complete timeline of Nigel Farage\'s life and political career from 1964 to present. Birth, UKIP, Brexit, Reform UK.',
+  alternates: {
+    canonical: '/timeline',
+  },
+  openGraph: {
+    title: 'Nigel Farage Timeline - Key Events & Milestones',
+    description: 'Complete timeline of Nigel Farage\'s life and political career from 1964 to present.',
+    url: '/timeline',
+  },
 }
 
 export default function TimelinePage() {

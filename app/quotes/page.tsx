@@ -3,7 +3,15 @@ import quotes from '@/data/quotes.json'
 
 export const metadata: Metadata = {
   title: 'Nigel Farage Quotes - Famous Statements & Speeches',
-  description: 'Collection of Nigel Farage\'s most famous quotes on Brexit, immigration, the EU, and British politics.',
+  description: 'Collection of Nigel Farage\'s most famous quotes on Brexit, immigration, the EU, and British politics. 90+ quotes with sources.',
+  alternates: {
+    canonical: '/quotes',
+  },
+  openGraph: {
+    title: 'Nigel Farage Quotes - Famous Statements & Speeches',
+    description: 'Collection of Nigel Farage\'s most famous quotes on Brexit, immigration, the EU, and British politics.',
+    url: '/quotes',
+  },
 }
 
 export default function QuotesPage() {

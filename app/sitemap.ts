@@ -73,6 +73,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as ChangeFrequency,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/net-worth`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/polls`,
+      lastModified: new Date(),
+      changeFrequency: 'daily' as ChangeFrequency,
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/wife`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as ChangeFrequency,
+      priority: 0.8,
+    },
   ]
 
   // Quote pages

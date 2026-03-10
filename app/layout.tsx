@@ -153,7 +153,7 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="bg-gray-100 border-t mt-16">
           <div className="max-w-6xl mx-auto px-4 py-8">
-            <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div className="grid md:grid-cols-4 gap-8 mb-8">
               <div>
                 <h4 className="font-bold mb-3">About</h4>
                 <ul className="space-y-2 text-sm text-gray-600">
@@ -176,6 +176,13 @@ export default function RootLayout({
                   <li><a href="/news" className="hover:text-blue-600">Latest News</a></li>
                   <li><a href="/people" className="hover:text-blue-600">Key People</a></li>
                   <li><a href="/faq" className="hover:text-blue-600">FAQ</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold mb-3">Related Sites</h4>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li><a href="https://www.richardtice.co" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">Richard Tice →</a></li>
+                  <li><a href="https://www.rupertlowe.co" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">Rupert Lowe →</a></li>
                 </ul>
               </div>
             </div>

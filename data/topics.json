@@ -6,11 +6,25 @@
     "subtitle": "Britain's Exit from the European Union",
     "description": "Nigel Farage dedicated over 25 years to the cause of British independence from the EU. From founding UKIP in 1993 to leading the Leave campaign in 2016, Brexit was his life's work.",
     "keyDates": [
-      {"date": "1993", "event": "Co-founds UKIP to campaign for EU withdrawal"},
-      {"date": "2016-06-23", "event": "Brexit referendum - Leave wins 52-48%"},
-      {"date": "2020-01-31", "event": "UK officially leaves the EU"}
+      {
+        "date": "1993",
+        "event": "Co-founds UKIP to campaign for EU withdrawal"
+      },
+      {
+        "date": "2016-06-23",
+        "event": "Brexit referendum - Leave wins 52-48%"
+      },
+      {
+        "date": "2020-01-31",
+        "event": "UK officially leaves the EU"
+      }
     ],
-    "relatedQuotes": [1, 2, 10, 13],
+    "relatedQuotes": [
+      1,
+      2,
+      10,
+      13
+    ],
     "category": "major"
   },
   {
@@ -25,7 +39,11 @@
       "Points-based immigration system",
       "Deport illegal immigrants"
     ],
-    "relatedQuotes": [1, 12, 13],
+    "relatedQuotes": [
+      1,
+      12,
+      13
+    ],
     "category": "major"
   },
   {
@@ -35,11 +53,25 @@
     "subtitle": "Farage's 17-Year Battle in Brussels",
     "description": "Farage served as an MEP from 1999 to 2020, using the European Parliament as a platform to criticise the EU from within. His speeches went viral and made him internationally known.",
     "keyDates": [
-      {"date": "1999", "event": "Elected as MEP for South East England"},
-      {"date": "2010", "event": "Famous 'Who are you?' speech to Van Rompuy"},
-      {"date": "2020", "event": "Final speech in EU Parliament before Brexit"}
+      {
+        "date": "1999",
+        "event": "Elected as MEP for South East England"
+      },
+      {
+        "date": "2010",
+        "event": "Famous 'Who are you?' speech to Van Rompuy"
+      },
+      {
+        "date": "2020",
+        "event": "Final speech in EU Parliament before Brexit"
+      }
     ],
-    "relatedQuotes": [4, 7, 8, 9],
+    "relatedQuotes": [
+      4,
+      7,
+      8,
+      9
+    ],
     "category": "major"
   },
   {
@@ -49,11 +81,26 @@
     "subtitle": "Building a New Political Movement",
     "description": "After Brexit was achieved, Farage pivoted to domestic reform. Reform UK aims to challenge the two-party system and has led national polls since 2025.",
     "keyDates": [
-      {"date": "2021", "event": "Brexit Party rebrands as Reform UK"},
-      {"date": "2024", "event": "Farage becomes leader, wins Clacton seat"},
-      {"date": "2025", "event": "Reform leads national polls"}
+      {
+        "date": "2021",
+        "event": "Brexit Party rebrands as Reform UK"
+      },
+      {
+        "date": "2024",
+        "event": "Farage becomes leader, wins Clacton seat"
+      },
+      {
+        "date": "2025",
+        "event": "Reform leads national polls"
+      }
     ],
-    "relatedQuotes": [3, 16, 17, 19, 20],
+    "relatedQuotes": [
+      3,
+      16,
+      17,
+      19,
+      20
+    ],
     "category": "major"
   },
   {
@@ -68,7 +115,9 @@
       "No new wind farms",
       "Embrace fracking"
     ],
-    "relatedQuotes": [18],
+    "relatedQuotes": [
+      18
+    ],
     "category": "policy"
   },
   {
@@ -78,8 +127,14 @@
     "subtitle": "The Special Relationship",
     "description": "Farage was the first foreign politician to meet Trump after his 2016 election. They share political allies, rhetoric, and a mutual admiration.",
     "keyDates": [
-      {"date": "2016-11-12", "event": "First foreign politician to meet President-elect Trump"},
-      {"date": "2024", "event": "Spoke at Trump rally during US election"}
+      {
+        "date": "2016-11-12",
+        "event": "First foreign politician to meet President-elect Trump"
+      },
+      {
+        "date": "2024",
+        "event": "Spoke at Trump rally during US election"
+      }
     ],
     "category": "international"
   },
@@ -109,7 +164,130 @@
       "Cut government spending",
       "Reduce regulations on business"
     ],
-    "relatedQuotes": [5, 7],
+    "relatedQuotes": [
+      5,
+      7
+    ],
     "category": "policy"
+  },
+  {
+    "id": "small-boats",
+    "slug": "small-boats",
+    "title": "Small Boats & Channel Crossings",
+    "description": "Nigel Farage position on illegal Channel crossings and border security.",
+    "icon": "⛵",
+    "quotes": [
+      35,
+      50,
+      65
+    ]
+  },
+  {
+    "id": "free-speech",
+    "slug": "free-speech",
+    "title": "Free Speech & Cancel Culture",
+    "description": "Farage views on free expression, censorship, and online speech.",
+    "icon": "🗣️",
+    "quotes": [
+      46,
+      67
+    ]
+  },
+  {
+    "id": "net-zero",
+    "slug": "net-zero",
+    "title": "Net Zero & Climate Policy",
+    "description": "Farage opposition to Net Zero targets and green energy policies.",
+    "icon": "🌡️",
+    "quotes": [
+      18,
+      72,
+      82
+    ]
+  },
+  {
+    "id": "banking",
+    "slug": "debanking",
+    "title": "Banking & Debanking",
+    "description": "The Coutts scandal and Farage views on financial censorship.",
+    "icon": "🏦",
+    "quotes": [
+      67
+    ]
+  },
+  {
+    "id": "fishing",
+    "slug": "fishing",
+    "title": "Fishing Industry",
+    "description": "Farage stance on fishing rights and coastal communities.",
+    "icon": "🐟",
+    "quotes": [
+      71
+    ]
+  },
+  {
+    "id": "echr",
+    "slug": "echr",
+    "title": "ECHR & Human Rights Law",
+    "description": "Farage call to leave the European Court of Human Rights.",
+    "icon": "⚖️",
+    "quotes": [
+      79
+    ]
+  },
+  {
+    "id": "bbc",
+    "slug": "bbc-media",
+    "title": "BBC & Media Bias",
+    "description": "Farage criticism of the BBC and mainstream media.",
+    "icon": "📺",
+    "quotes": [
+      73,
+      89
+    ]
+  },
+  {
+    "id": "housing",
+    "slug": "housing",
+    "title": "Housing Crisis",
+    "description": "Reform UK policies on housing, planning, and homeownership.",
+    "icon": "🏠",
+    "quotes": []
+  },
+  {
+    "id": "crime",
+    "slug": "crime",
+    "title": "Crime & Policing",
+    "description": "Farage views on law and order, prison policy, and two-tier policing.",
+    "icon": "👮",
+    "quotes": []
+  },
+  {
+    "id": "universities",
+    "slug": "universities",
+    "title": "Universities & Education",
+    "description": "Farage criticism of woke culture in higher education.",
+    "icon": "🎓",
+    "quotes": [
+      81
+    ]
+  },
+  {
+    "id": "monarchy",
+    "slug": "monarchy",
+    "title": "The Monarchy",
+    "description": "Farage views on the Royal Family and constitutional matters.",
+    "icon": "👑",
+    "quotes": []
+  },
+  {
+    "id": "trump",
+    "slug": "donald-trump",
+    "title": "Donald Trump & US Politics",
+    "description": "Farage relationship with Trump and views on American politics.",
+    "icon": "🇺🇸",
+    "quotes": [
+      43
+    ]
   }
 ]

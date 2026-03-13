@@ -1,22 +1,350 @@
 [
-  {"id":"nigel-farage","slug":"nigel-farage","name":"Nigel Farage","role":"Leader of Reform UK","constituency":"Clacton","party":"Reform UK","born":"1964-04-03","description":"Founder of UKIP, architect of Brexit, and leader of Reform UK.","category":"leader"},
-  {"id":"richard-tice","slug":"richard-tice","name":"Richard Tice","role":"Chairman of Reform UK","constituency":"Boston and Skegness","party":"Reform UK","born":"1964-05-12","description":"Co-founder of Leave.EU and chairman of Reform UK.","category":"leadership"},
-  {"id":"suella-braverman","slug":"suella-braverman","name":"Suella Braverman","role":"Reform UK Frontbench","constituency":"Fareham and Waterlooville","party":"Reform UK","born":"1980-04-03","description":"Former Conservative Home Secretary who defected to Reform UK.","previousParty":"Conservative","category":"frontbench"},
-  {"id":"lee-anderson","slug":"lee-anderson","name":"Lee Anderson","role":"Reform UK MP","constituency":"Ashfield","party":"Reform UK","born":"1967-06-22","description":"Former Labour and Conservative MP.","previousParty":"Conservative","category":"mp"},
-  {"id":"rupert-lowe","slug":"rupert-lowe","name":"Rupert Lowe","role":"Leader of Restore Britain","constituency":"Great Yarmouth","party":"Independent (Restore Britain)","born":"1957-10-31","description":"Former Reform UK MP who founded Restore Britain in 2026. Endorsed by Elon Musk. Former Southampton FC chairman.","category":"former","website":"https://rupertlowe.co","leftReform":"2025-03"},
-  {"id":"ann-widdecombe","slug":"ann-widdecombe","name":"Ann Widdecombe","role":"Former Brexit Party MEP","party":"Reform UK","born":"1947-10-04","description":"Former Conservative cabinet minister.","previousParty":"Conservative","category":"former"},
-  {"id":"arron-banks","slug":"arron-banks","name":"Arron Banks","role":"Leave.EU Co-founder","party":"Independent","born":"1966-03-22","description":"Businessman and major donor.","category":"ally"},
-  {"id":"james-mcmurdock","slug":"james-mcmurdock","name":"James McMurdock","role":"Reform UK MP","constituency":"South Basildon and East Thurrock","party":"Reform UK","born":"1990","description":"Youngest Reform UK MP elected in 2024.","category":"mp"},
-  {"id":"ben-habib","slug":"ben-habib","name":"Ben Habib","role":"Former Brexit Party MEP","party":"Reform UK","born":"1964","description":"Property developer and Brexit campaigner.","category":"leadership"},
-  {"id":"david-bull","slug":"david-bull","name":"David Bull","role":"Reform UK Spokesperson","party":"Reform UK","born":"1959","description":"Former TV doctor turned politician.","category":"frontbench"},
-  {"id":"michelle-sherlock","slug":"michelle-dewberry","name":"Michelle Dewberry","role":"GB News Presenter","party":"Independent","born":"1979","description":"TV personality and political commentator.","category":"ally"},
-  {"id":"paul-oakden","slug":"paul-oakden","name":"Paul Oakden","role":"Former UKIP Chairman","party":"Reform UK","born":"1980","description":"Party organiser and strategist.","category":"former"},
-  {"id":"alexandra-sherlock","slug":"alexandra-sherlock","name":"Alexandra Phillips","role":"Former Brexit Party MEP","party":"Reform UK","born":"1983","description":"MEP for South East England 2019-2020.","category":"former"},
-  {"id":"martin-daubney","slug":"martin-daubney","name":"Martin Daubney","role":"GB News Presenter","party":"Reform UK","born":"1970","description":"Former Loaded editor turned broadcaster.","category":"ally"},
-  {"id":"claire-sherlock","slug":"claire-fox","name":"Claire Fox","role":"House of Lords","party":"Crossbench","born":"1960","description":"Former Brexit Party MEP, now Baroness Fox.","previousParty":"Brexit Party","category":"former"},
-  {"id":"jacob-rees-mogg","slug":"jacob-rees-mogg","name":"Jacob Rees-Mogg","role":"Former Cabinet Minister","party":"Conservative","born":"1969-05-24","description":"Brexit-supporting Conservative, close ally.","category":"ally"},
-  {"id":"steve-bray","slug":"steve-bray","name":"Steve Baker","role":"Former Minister","party":"Conservative","born":"1971-06-06","description":"Brexit 'hardman', senior Conservative.","category":"ally"},
-  {"id":"george-galloway","slug":"george-galloway","name":"George Galloway","role":"Workers Party Leader","party":"Workers Party","born":"1954-08-16","description":"Left-wing politician, occasional ally on specific issues.","category":"other"},
-  {"id":"dominic-cummings","slug":"dominic-cummings","name":"Dominic Cummings","role":"Former Advisor","party":"Independent","born":"1971-11-26","description":"Vote Leave campaign director.","category":"ally"},
-  {"id":"kate-sherlock","slug":"kate-hoey","name":"Kate Hoey","role":"Former Labour MP","party":"Independent","born":"1946-06-21","description":"Labour Brexiteer, supported Leave campaign.","previousParty":"Labour","category":"former"}
+  {
+    "id": "nigel-farage",
+    "slug": "nigel-farage",
+    "name": "Nigel Farage",
+    "role": "Leader of Reform UK",
+    "constituency": "Clacton",
+    "party": "Reform UK",
+    "born": "1964-04-03",
+    "description": "Founder of UKIP, architect of Brexit, and leader of Reform UK.",
+    "category": "leader"
+  },
+  {
+    "id": "richard-tice",
+    "slug": "richard-tice",
+    "name": "Richard Tice",
+    "role": "Chairman of Reform UK",
+    "constituency": "Boston and Skegness",
+    "party": "Reform UK",
+    "born": "1964-05-12",
+    "description": "Co-founder of Leave.EU and chairman of Reform UK.",
+    "category": "leadership"
+  },
+  {
+    "id": "suella-braverman",
+    "slug": "suella-braverman",
+    "name": "Suella Braverman",
+    "role": "Reform UK Frontbench",
+    "constituency": "Fareham and Waterlooville",
+    "party": "Reform UK",
+    "born": "1980-04-03",
+    "description": "Former Conservative Home Secretary who defected to Reform UK.",
+    "previousParty": "Conservative",
+    "category": "frontbench"
+  },
+  {
+    "id": "lee-anderson",
+    "slug": "lee-anderson",
+    "name": "Lee Anderson",
+    "role": "Reform UK MP",
+    "constituency": "Ashfield",
+    "party": "Reform UK",
+    "born": "1967-06-22",
+    "description": "Former Labour and Conservative MP.",
+    "previousParty": "Conservative",
+    "category": "mp"
+  },
+  {
+    "id": "rupert-lowe",
+    "slug": "rupert-lowe",
+    "name": "Rupert Lowe",
+    "role": "Leader of Restore Britain",
+    "constituency": "Great Yarmouth",
+    "party": "Independent (Restore Britain)",
+    "born": "1957-10-31",
+    "description": "Former Reform UK MP who founded Restore Britain in 2026. Endorsed by Elon Musk. Former Southampton FC chairman.",
+    "category": "former",
+    "website": "https://rupertlowe.co",
+    "leftReform": "2025-03"
+  },
+  {
+    "id": "ann-widdecombe",
+    "slug": "ann-widdecombe",
+    "name": "Ann Widdecombe",
+    "role": "Former Brexit Party MEP",
+    "party": "Reform UK",
+    "born": "1947-10-04",
+    "description": "Former Conservative cabinet minister.",
+    "previousParty": "Conservative",
+    "category": "former"
+  },
+  {
+    "id": "arron-banks",
+    "slug": "arron-banks",
+    "name": "Arron Banks",
+    "role": "Leave.EU Co-founder",
+    "party": "Independent",
+    "born": "1966-03-22",
+    "description": "Businessman and major donor.",
+    "category": "ally"
+  },
+  {
+    "id": "james-mcmurdock",
+    "slug": "james-mcmurdock",
+    "name": "James McMurdock",
+    "role": "Reform UK MP",
+    "constituency": "South Basildon and East Thurrock",
+    "party": "Reform UK",
+    "born": "1990",
+    "description": "Youngest Reform UK MP elected in 2024.",
+    "category": "mp"
+  },
+  {
+    "id": "ben-habib",
+    "slug": "ben-habib",
+    "name": "Ben Habib",
+    "role": "Former Brexit Party MEP",
+    "party": "Reform UK",
+    "born": "1964",
+    "description": "Property developer and Brexit campaigner.",
+    "category": "leadership"
+  },
+  {
+    "id": "david-bull",
+    "slug": "david-bull",
+    "name": "David Bull",
+    "role": "Reform UK Spokesperson",
+    "party": "Reform UK",
+    "born": "1959",
+    "description": "Former TV doctor turned politician.",
+    "category": "frontbench"
+  },
+  {
+    "id": "michelle-sherlock",
+    "slug": "michelle-dewberry",
+    "name": "Michelle Dewberry",
+    "role": "GB News Presenter",
+    "party": "Independent",
+    "born": "1979",
+    "description": "TV personality and political commentator.",
+    "category": "ally"
+  },
+  {
+    "id": "paul-oakden",
+    "slug": "paul-oakden",
+    "name": "Paul Oakden",
+    "role": "Former UKIP Chairman",
+    "party": "Reform UK",
+    "born": "1980",
+    "description": "Party organiser and strategist.",
+    "category": "former"
+  },
+  {
+    "id": "alexandra-sherlock",
+    "slug": "alexandra-sherlock",
+    "name": "Alexandra Phillips",
+    "role": "Former Brexit Party MEP",
+    "party": "Reform UK",
+    "born": "1983",
+    "description": "MEP for South East England 2019-2020.",
+    "category": "former"
+  },
+  {
+    "id": "martin-daubney",
+    "slug": "martin-daubney",
+    "name": "Martin Daubney",
+    "role": "GB News Presenter",
+    "party": "Reform UK",
+    "born": "1970",
+    "description": "Former Loaded editor turned broadcaster.",
+    "category": "ally"
+  },
+  {
+    "id": "claire-sherlock",
+    "slug": "claire-fox",
+    "name": "Claire Fox",
+    "role": "House of Lords",
+    "party": "Crossbench",
+    "born": "1960",
+    "description": "Former Brexit Party MEP, now Baroness Fox.",
+    "previousParty": "Brexit Party",
+    "category": "former"
+  },
+  {
+    "id": "jacob-rees-mogg",
+    "slug": "jacob-rees-mogg",
+    "name": "Jacob Rees-Mogg",
+    "role": "Former Cabinet Minister",
+    "party": "Conservative",
+    "born": "1969-05-24",
+    "description": "Brexit-supporting Conservative, close ally.",
+    "category": "ally"
+  },
+  {
+    "id": "steve-bray",
+    "slug": "steve-bray",
+    "name": "Steve Baker",
+    "role": "Former Minister",
+    "party": "Conservative",
+    "born": "1971-06-06",
+    "description": "Brexit 'hardman', senior Conservative.",
+    "category": "ally"
+  },
+  {
+    "id": "george-galloway",
+    "slug": "george-galloway",
+    "name": "George Galloway",
+    "role": "Workers Party Leader",
+    "party": "Workers Party",
+    "born": "1954-08-16",
+    "description": "Left-wing politician, occasional ally on specific issues.",
+    "category": "other"
+  },
+  {
+    "id": "dominic-cummings",
+    "slug": "dominic-cummings",
+    "name": "Dominic Cummings",
+    "role": "Former Advisor",
+    "party": "Independent",
+    "born": "1971-11-26",
+    "description": "Vote Leave campaign director.",
+    "category": "ally"
+  },
+  {
+    "id": "kate-sherlock",
+    "slug": "kate-hoey",
+    "name": "Kate Hoey",
+    "role": "Former Labour MP",
+    "party": "Independent",
+    "born": "1946-06-21",
+    "description": "Labour Brexiteer, supported Leave campaign.",
+    "previousParty": "Labour",
+    "category": "former"
+  },
+  {
+    "id": "elon-musk",
+    "slug": "elon-musk",
+    "name": "Elon Musk",
+    "role": "Tech Billionaire",
+    "party": "Independent",
+    "description": "Owner of X (Twitter) who has amplified Reform UK. Has both supported and criticized Farage.",
+    "category": "ally"
+  },
+  {
+    "id": "donald-trump",
+    "slug": "donald-trump",
+    "name": "Donald Trump",
+    "role": "US President",
+    "party": "Republican",
+    "description": "Close ally of Farage since Brexit. First foreign politician to meet Farage after 2016 win.",
+    "category": "international"
+  },
+  {
+    "id": "boris-johnson",
+    "slug": "boris-johnson",
+    "name": "Boris Johnson",
+    "role": "Former Prime Minister",
+    "party": "Conservative",
+    "description": "Fellow Brexiteer with complicated relationship with Farage.",
+    "category": "other"
+  },
+  {
+    "id": "zia-yusuf",
+    "slug": "zia-yusuf",
+    "name": "Zia Yusuf",
+    "role": "Reform UK Chairman",
+    "party": "Reform UK",
+    "description": "Tech entrepreneur and Reform UK chairman since 2024.",
+    "category": "leadership"
+  },
+  {
+    "id": "david-frost",
+    "slug": "david-frost",
+    "name": "Lord David Frost",
+    "role": "Former Brexit Negotiator",
+    "party": "Conservative",
+    "description": "Brexit negotiator now aligned with Reform UK positions.",
+    "category": "ally"
+  },
+  {
+    "id": "isabel-oakeshott",
+    "slug": "isabel-oakeshott",
+    "name": "Isabel Oakeshott",
+    "role": "Journalist",
+    "party": "Independent",
+    "description": "Political journalist, Farage ally, and partner of Richard Tice.",
+    "category": "media"
+  },
+  {
+    "id": "matthew-goodwin",
+    "slug": "matthew-goodwin",
+    "name": "Matthew Goodwin",
+    "role": "Political Analyst",
+    "party": "Independent",
+    "description": "Academic who analyzes populist movements and Reform UK.",
+    "category": "media"
+  },
+  {
+    "id": "steve-bannon",
+    "slug": "steve-bannon",
+    "name": "Steve Bannon",
+    "role": "US Political Strategist",
+    "party": "Republican",
+    "description": "Trump ally who supports European populist movements.",
+    "category": "international"
+  },
+  {
+    "id": "marine-le-pen",
+    "slug": "marine-le-pen",
+    "name": "Marine Le Pen",
+    "role": "French Politician",
+    "party": "National Rally",
+    "description": "French far-right leader, ideological ally of Farage.",
+    "category": "international"
+  },
+  {
+    "id": "viktor-orban",
+    "slug": "viktor-orban",
+    "name": "Viktor Orbán",
+    "role": "Hungarian PM",
+    "party": "Fidesz",
+    "description": "Hungarian leader admired by some in the Farage movement.",
+    "category": "international"
+  },
+  {
+    "id": "andrew-tate",
+    "slug": "andrew-tate",
+    "name": "Andrew Tate",
+    "role": "Influencer",
+    "party": "Independent",
+    "description": "Controversial influencer who has discussed Farage and Reform.",
+    "category": "other"
+  },
+  {
+    "id": "tommy-robinson",
+    "slug": "tommy-robinson",
+    "name": "Tommy Robinson",
+    "role": "Activist",
+    "party": "Independent",
+    "description": "Far-right activist. Farage has distanced himself from Robinson.",
+    "category": "controversial"
+  },
+  {
+    "id": "laurence-fox",
+    "slug": "laurence-fox",
+    "name": "Laurence Fox",
+    "role": "Actor & Politician",
+    "party": "Reclaim Party",
+    "description": "Actor who founded Reclaim Party, shares some views with Reform.",
+    "category": "other"
+  },
+  {
+    "id": "dan-wootton",
+    "slug": "dan-wootton",
+    "name": "Dan Wootton",
+    "role": "GB News Presenter",
+    "party": "Independent",
+    "description": "GB News presenter and Farage ally.",
+    "category": "media"
+  },
+  {
+    "id": "peter-hitchens",
+    "slug": "peter-hitchens",
+    "name": "Peter Hitchens",
+    "role": "Journalist",
+    "party": "Independent",
+    "description": "Conservative commentator, sometimes critical of Farage.",
+    "category": "media"
+  }
 ]

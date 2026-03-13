@@ -1,22 +1,414 @@
 [
-  {"id":"who-are-you-van-rompuy","slug":"who-are-you-van-rompuy-2010","title":"Who Are You? - Attack on Van Rompuy","date":"2010-02-24","venue":"European Parliament","description":"Farage's infamous attack on EU President Herman Van Rompuy.","videoUrl":"https://www.youtube.com/watch?v=bypLwI5AQvY","transcript":"Good morning, Mr Van Rompuy. You've been in office for one year, and in that time the whole edifice is crumbling. I don't want to be rude, but really, you have the charisma of a damp rag and the appearance of a low-grade bank clerk. Who are you? I'd never heard of you.","views":"5000000","category":"eu-parliament"},
-  {"id":"brexit-victory-speech","slug":"brexit-victory-speech-2016","title":"Brexit Victory Speech","date":"2016-06-24","venue":"Leave.EU Rally, London","description":"Farage's triumphant speech declaring victory in the EU referendum.","transcript":"Dare to dream that the dawn is breaking on an independent United Kingdom. This will be a victory for real people, a victory for ordinary people, a victory for decent people.","views":"2000000","category":"brexit"},
-  {"id":"you-are-not-laughing-now","slug":"you-are-not-laughing-now-2016","title":"You're Not Laughing Now","date":"2016-06-28","venue":"European Parliament","description":"Farage's post-Brexit speech taunting MEPs.","transcript":"When I came here 17 years ago and I said that I wanted to lead a campaign to get Britain out of the European Union, you all laughed at me. Well I have to say, you're not laughing now, are you?","views":"3000000","category":"eu-parliament"},
-  {"id":"euro-titanic","slug":"euro-titanic-iceberg-2011","title":"The Euro Titanic Has Hit the Iceberg","date":"2011-11-16","venue":"European Parliament","description":"Farage's speech during the eurozone crisis.","transcript":"The euro Titanic has now hit the iceberg and sadly there simply aren't enough lifeboats.","views":"1500000","category":"eu-parliament"},
-  {"id":"clacton-victory-2024","slug":"clacton-victory-speech-2024","title":"Clacton Victory Speech","date":"2024-07-05","venue":"Clacton-on-Sea","description":"Farage's speech after winning his Westminster seat.","transcript":"This is the inflection point. This is the beginning of the end of the socialist Labour government.","views":"500000","category":"reform"},
-  {"id":"final-eu-speech","slug":"final-eu-parliament-speech-2020","title":"Final EU Parliament Speech","date":"2020-01-29","venue":"European Parliament","description":"Farage's emotional final speech before Brexit.","transcript":"I know you're going to miss us. I know you want to ban our national flags, but we're going to wave you goodbye.","views":"4000000","category":"eu-parliament"},
-  {"id":"greek-bailout","slug":"greek-bailout-speech-2010","title":"Greek Bailout Speech","date":"2010-11-24","venue":"European Parliament","description":"Farage attacks EU handling of Greek debt crisis.","transcript":"Who the hell do you think you people are? You are very, very dangerous people indeed.","views":"2500000","category":"eu-parliament"},
-  {"id":"ukip-conference-2014","slug":"ukip-conference-2014","title":"UKIP Conference Speech","date":"2014-09-26","venue":"Doncaster","description":"Farage's keynote at UKIP's peak.","transcript":"The political establishment is losing control. The people want change, and UKIP is the change.","views":"500000","category":"ukip"},
-  {"id":"brexit-party-launch","slug":"brexit-party-launch-2019","title":"Brexit Party Launch","date":"2019-04-12","venue":"Coventry","description":"Launch of the Brexit Party.","transcript":"The politicians have broken their promises. The Brexit Party is here to make sure Brexit happens.","views":"800000","category":"brexit-party"},
-  {"id":"reform-uk-conference-2024","slug":"reform-uk-conference-2024","title":"Reform UK Conference Speech","date":"2024-09-20","venue":"Birmingham","description":"Farage's first conference as Reform UK leader.","transcript":"We are not just a political party. We are a movement to take back our country.","views":"600000","category":"reform"},
-  {"id":"trump-rally-2024","slug":"trump-rally-speech-2024","title":"Trump Rally Speech","date":"2024-07-13","venue":"Butler, Pennsylvania","description":"Farage speaks at Trump rally in the US.","transcript":"What happened in Britain with Brexit is now happening here in America. The people are taking back control.","views":"1200000","category":"international"},
-  {"id":"eu-budget-2013","slug":"eu-budget-speech-2013","title":"EU Budget Speech","date":"2013-02-13","venue":"European Parliament","description":"Attack on EU spending.","transcript":"This organisation is not just incompetent, it's corrupt. And you want more money?","views":"900000","category":"eu-parliament"},
-  {"id":"immigration-2015","slug":"immigration-speech-2015","title":"Immigration Speech","date":"2015-03-28","venue":"UKIP Spring Conference","description":"Farage outlines immigration policy.","transcript":"We need an Australian-style points system. It works. It's fair. And it puts Britain first.","views":"400000","category":"ukip"},
-  {"id":"merkel-criticism","slug":"merkel-criticism-2016","title":"Criticism of Angela Merkel","date":"2016-01-19","venue":"European Parliament","description":"Farage attacks Merkel's refugee policy.","transcript":"Mrs Merkel, you have made a catastrophic error. You have opened the door to millions.","views":"1800000","category":"eu-parliament"},
-  {"id":"gb-news-launch","slug":"gb-news-show-launch-2021","title":"GB News Show Launch","date":"2021-07-19","venue":"GB News Studio","description":"First episode of Farage's GB News show.","transcript":"This is a channel for the people. No more metropolitan elite nonsense.","views":"350000","category":"media"},
-  {"id":"coutts-bank","slug":"coutts-bank-statement-2023","title":"Coutts Banking Scandal Statement","date":"2023-07-04","venue":"Press Conference","description":"Farage responds to Coutts debanking.","transcript":"This is not about me. This is about the weaponisation of banks against political views.","views":"700000","category":"controversy"},
-  {"id":"reform-policies-2025","slug":"reform-policies-launch-2025","title":"Reform UK Policy Launch","date":"2025-01-15","venue":"London","description":"Launch of Reform UK's policy platform.","transcript":"Lower taxes, controlled immigration, energy independence. This is what Britain needs.","views":"450000","category":"reform"},
-  {"id":"braverman-welcome","slug":"braverman-welcome-speech-2026","title":"Welcoming Suella Braverman","date":"2026-01-26","venue":"Reform UK HQ","description":"Farage welcomes Braverman to Reform UK.","transcript":"This is a seismic moment. Suella has come home to the real opposition.","views":"550000","category":"reform"},
-  {"id":"small-boats-2023","slug":"small-boats-speech-2023","title":"Small Boats Speech","date":"2023-08-15","venue":"Dover","description":"Farage on Channel crossings.","transcript":"This is an invasion. There is no other word for it. And it must stop.","views":"650000","category":"immigration"},
-  {"id":"frontbench-2026","slug":"frontbench-announcement-2026","title":"Frontbench Announcement","date":"2026-02-17","venue":"Westminster","description":"Announcing Reform UK's shadow cabinet.","transcript":"Today we show Britain that Reform UK is ready for government.","views":"300000","category":"reform"}
+  {
+    "id": "who-are-you-van-rompuy",
+    "slug": "who-are-you-van-rompuy-2010",
+    "title": "Who Are You? - Attack on Van Rompuy",
+    "date": "2010-02-24",
+    "venue": "European Parliament",
+    "description": "Farage's infamous attack on EU President Herman Van Rompuy.",
+    "videoUrl": "https://www.youtube.com/watch?v=bypLwI5AQvY",
+    "transcript": "Good morning, Mr Van Rompuy. You've been in office for one year, and in that time the whole edifice is crumbling. I don't want to be rude, but really, you have the charisma of a damp rag and the appearance of a low-grade bank clerk. Who are you? I'd never heard of you.",
+    "views": "5000000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "brexit-victory-speech",
+    "slug": "brexit-victory-speech-2016",
+    "title": "Brexit Victory Speech",
+    "date": "2016-06-24",
+    "venue": "Leave.EU Rally, London",
+    "description": "Farage's triumphant speech declaring victory in the EU referendum.",
+    "transcript": "Dare to dream that the dawn is breaking on an independent United Kingdom. This will be a victory for real people, a victory for ordinary people, a victory for decent people.",
+    "views": "2000000",
+    "category": "brexit"
+  },
+  {
+    "id": "you-are-not-laughing-now",
+    "slug": "you-are-not-laughing-now-2016",
+    "title": "You're Not Laughing Now",
+    "date": "2016-06-28",
+    "venue": "European Parliament",
+    "description": "Farage's post-Brexit speech taunting MEPs.",
+    "transcript": "When I came here 17 years ago and I said that I wanted to lead a campaign to get Britain out of the European Union, you all laughed at me. Well I have to say, you're not laughing now, are you?",
+    "views": "3000000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "euro-titanic",
+    "slug": "euro-titanic-iceberg-2011",
+    "title": "The Euro Titanic Has Hit the Iceberg",
+    "date": "2011-11-16",
+    "venue": "European Parliament",
+    "description": "Farage's speech during the eurozone crisis.",
+    "transcript": "The euro Titanic has now hit the iceberg and sadly there simply aren't enough lifeboats.",
+    "views": "1500000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "clacton-victory-2024",
+    "slug": "clacton-victory-speech-2024",
+    "title": "Clacton Victory Speech",
+    "date": "2024-07-05",
+    "venue": "Clacton-on-Sea",
+    "description": "Farage's speech after winning his Westminster seat.",
+    "transcript": "This is the inflection point. This is the beginning of the end of the socialist Labour government.",
+    "views": "500000",
+    "category": "reform"
+  },
+  {
+    "id": "final-eu-speech",
+    "slug": "final-eu-parliament-speech-2020",
+    "title": "Final EU Parliament Speech",
+    "date": "2020-01-29",
+    "venue": "European Parliament",
+    "description": "Farage's emotional final speech before Brexit.",
+    "transcript": "I know you're going to miss us. I know you want to ban our national flags, but we're going to wave you goodbye.",
+    "views": "4000000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "greek-bailout",
+    "slug": "greek-bailout-speech-2010",
+    "title": "Greek Bailout Speech",
+    "date": "2010-11-24",
+    "venue": "European Parliament",
+    "description": "Farage attacks EU handling of Greek debt crisis.",
+    "transcript": "Who the hell do you think you people are? You are very, very dangerous people indeed.",
+    "views": "2500000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "ukip-conference-2014",
+    "slug": "ukip-conference-2014",
+    "title": "UKIP Conference Speech",
+    "date": "2014-09-26",
+    "venue": "Doncaster",
+    "description": "Farage's keynote at UKIP's peak.",
+    "transcript": "The political establishment is losing control. The people want change, and UKIP is the change.",
+    "views": "500000",
+    "category": "ukip"
+  },
+  {
+    "id": "brexit-party-launch",
+    "slug": "brexit-party-launch-2019",
+    "title": "Brexit Party Launch",
+    "date": "2019-04-12",
+    "venue": "Coventry",
+    "description": "Launch of the Brexit Party.",
+    "transcript": "The politicians have broken their promises. The Brexit Party is here to make sure Brexit happens.",
+    "views": "800000",
+    "category": "brexit-party"
+  },
+  {
+    "id": "reform-uk-conference-2024",
+    "slug": "reform-uk-conference-2024",
+    "title": "Reform UK Conference Speech",
+    "date": "2024-09-20",
+    "venue": "Birmingham",
+    "description": "Farage's first conference as Reform UK leader.",
+    "transcript": "We are not just a political party. We are a movement to take back our country.",
+    "views": "600000",
+    "category": "reform"
+  },
+  {
+    "id": "trump-rally-2024",
+    "slug": "trump-rally-speech-2024",
+    "title": "Trump Rally Speech",
+    "date": "2024-07-13",
+    "venue": "Butler, Pennsylvania",
+    "description": "Farage speaks at Trump rally in the US.",
+    "transcript": "What happened in Britain with Brexit is now happening here in America. The people are taking back control.",
+    "views": "1200000",
+    "category": "international"
+  },
+  {
+    "id": "eu-budget-2013",
+    "slug": "eu-budget-speech-2013",
+    "title": "EU Budget Speech",
+    "date": "2013-02-13",
+    "venue": "European Parliament",
+    "description": "Attack on EU spending.",
+    "transcript": "This organisation is not just incompetent, it's corrupt. And you want more money?",
+    "views": "900000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "immigration-2015",
+    "slug": "immigration-speech-2015",
+    "title": "Immigration Speech",
+    "date": "2015-03-28",
+    "venue": "UKIP Spring Conference",
+    "description": "Farage outlines immigration policy.",
+    "transcript": "We need an Australian-style points system. It works. It's fair. And it puts Britain first.",
+    "views": "400000",
+    "category": "ukip"
+  },
+  {
+    "id": "merkel-criticism",
+    "slug": "merkel-criticism-2016",
+    "title": "Criticism of Angela Merkel",
+    "date": "2016-01-19",
+    "venue": "European Parliament",
+    "description": "Farage attacks Merkel's refugee policy.",
+    "transcript": "Mrs Merkel, you have made a catastrophic error. You have opened the door to millions.",
+    "views": "1800000",
+    "category": "eu-parliament"
+  },
+  {
+    "id": "gb-news-launch",
+    "slug": "gb-news-show-launch-2021",
+    "title": "GB News Show Launch",
+    "date": "2021-07-19",
+    "venue": "GB News Studio",
+    "description": "First episode of Farage's GB News show.",
+    "transcript": "This is a channel for the people. No more metropolitan elite nonsense.",
+    "views": "350000",
+    "category": "media"
+  },
+  {
+    "id": "coutts-bank",
+    "slug": "coutts-bank-statement-2023",
+    "title": "Coutts Banking Scandal Statement",
+    "date": "2023-07-04",
+    "venue": "Press Conference",
+    "description": "Farage responds to Coutts debanking.",
+    "transcript": "This is not about me. This is about the weaponisation of banks against political views.",
+    "views": "700000",
+    "category": "controversy"
+  },
+  {
+    "id": "reform-policies-2025",
+    "slug": "reform-policies-launch-2025",
+    "title": "Reform UK Policy Launch",
+    "date": "2025-01-15",
+    "venue": "London",
+    "description": "Launch of Reform UK's policy platform.",
+    "transcript": "Lower taxes, controlled immigration, energy independence. This is what Britain needs.",
+    "views": "450000",
+    "category": "reform"
+  },
+  {
+    "id": "braverman-welcome",
+    "slug": "braverman-welcome-speech-2026",
+    "title": "Welcoming Suella Braverman",
+    "date": "2026-01-26",
+    "venue": "Reform UK HQ",
+    "description": "Farage welcomes Braverman to Reform UK.",
+    "transcript": "This is a seismic moment. Suella has come home to the real opposition.",
+    "views": "550000",
+    "category": "reform"
+  },
+  {
+    "id": "small-boats-2023",
+    "slug": "small-boats-speech-2023",
+    "title": "Small Boats Speech",
+    "date": "2023-08-15",
+    "venue": "Dover",
+    "description": "Farage on Channel crossings.",
+    "transcript": "This is an invasion. There is no other word for it. And it must stop.",
+    "views": "650000",
+    "category": "immigration"
+  },
+  {
+    "id": "frontbench-2026",
+    "slug": "frontbench-announcement-2026",
+    "title": "Frontbench Announcement",
+    "date": "2026-02-17",
+    "venue": "Westminster",
+    "description": "Announcing Reform UK's shadow cabinet.",
+    "transcript": "Today we show Britain that Reform UK is ready for government.",
+    "views": "300000",
+    "category": "reform"
+  },
+  {
+    "id": "clacton-acceptance-2024",
+    "slug": "clacton-acceptance-2024",
+    "title": "Clacton Victory Speech",
+    "date": "2024-07-05",
+    "venue": "Clacton Counting Hall",
+    "description": "Farage finally wins a Westminster seat after 8 attempts.",
+    "keyQuotes": [
+      "This is just the beginning.",
+      "The political establishment should be very worried."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "trump-rally-2024",
+    "slug": "trump-rally-2024",
+    "title": "Trump Rally Speech",
+    "date": "2024-07-13",
+    "venue": "Butler, Pennsylvania",
+    "description": "Farage speaks at Trump rally shortly before assassination attempt.",
+    "keyQuotes": [
+      "The spirit of Brexit crossed the Atlantic."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "reform-conference-2024",
+    "slug": "reform-conference-2024",
+    "title": "Reform UK Conference Speech",
+    "date": "2024-09-20",
+    "venue": "Birmingham",
+    "description": "First party conference as elected MP.",
+    "keyQuotes": [
+      "We are the real opposition now.",
+      "Labour is already failing."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "gb-news-final-show",
+    "slug": "gb-news-final-show",
+    "title": "Final GB News Show Before Election",
+    "date": "2024-06-03",
+    "venue": "GB News Studio",
+    "description": "Announces return to politics and Reform UK leadership.",
+    "keyQuotes": [
+      "I cannot stand by and watch.",
+      "Someone has to do it."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "coutts-statement-2023",
+    "slug": "coutts-statement-2023",
+    "title": "Coutts Bank Statement",
+    "date": "2023-07-03",
+    "venue": "Press Conference",
+    "description": "Reveals political motivation behind bank account closure.",
+    "keyQuotes": [
+      "This is about who controls Britain.",
+      "The establishment has declared war."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "im-a-celebrity-exit",
+    "slug": "im-a-celebrity-exit-2023",
+    "title": "Im A Celebrity Exit Interview",
+    "date": "2023-12-10",
+    "venue": "Australia",
+    "description": "Reflects on time in the jungle after finishing third.",
+    "keyQuotes": [
+      "I showed people the real me."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "brexit-party-launch-2019",
+    "slug": "brexit-party-launch-2019",
+    "title": "Brexit Party Launch",
+    "date": "2019-04-12",
+    "venue": "Coventry",
+    "description": "Launches new party to save Brexit.",
+    "keyQuotes": [
+      "If we dont leave on March 29th, I will be back.",
+      "The betrayal of Brexit ends here."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "leave-means-leave-2018",
+    "slug": "leave-means-leave-march-2018",
+    "title": "Leave Means Leave Rally",
+    "date": "2018-12-09",
+    "venue": "London",
+    "description": "Campaigns against May Chequers deal.",
+    "keyQuotes": [
+      "This is not Brexit.",
+      "May must go."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "ukip-conference-2014",
+    "slug": "ukip-conference-2014",
+    "title": "UKIP Conference Victory Speech",
+    "date": "2014-09-26",
+    "venue": "Doncaster",
+    "description": "Celebrates European election victory.",
+    "keyQuotes": [
+      "The earthquake has happened.",
+      "We are now a national party."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "european-elections-2014",
+    "slug": "eu-elections-victory-2014",
+    "title": "European Elections Victory Speech",
+    "date": "2014-05-26",
+    "venue": "Southampton",
+    "description": "UKIP wins national election for first time.",
+    "keyQuotes": [
+      "The establishment is in denial.",
+      "This is a revolution."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "south-thanet-2015",
+    "slug": "south-thanet-defeat-2015",
+    "title": "South Thanet Concession Speech",
+    "date": "2015-05-08",
+    "venue": "Margate",
+    "description": "Concedes defeat and resigns as UKIP leader.",
+    "keyQuotes": [
+      "I have never felt happier.",
+      "UKIP is in good hands."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "question-time-2015",
+    "slug": "question-time-hiv-2015",
+    "title": "Question Time HIV Comments",
+    "date": "2015-04-02",
+    "venue": "BBC Studio",
+    "description": "Controversial comments on HIV treatment spark debate.",
+    "keyQuotes": [
+      "60% of people agree with me."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "scottish-referendum-2014",
+    "slug": "scottish-referendum-2014",
+    "title": "Scottish Referendum Speech",
+    "date": "2014-09-17",
+    "venue": "Edinburgh",
+    "description": "Campaigns for Scotland to remain in UK.",
+    "keyQuotes": [
+      "We are better together - but not with the EU."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "greek-crisis-2015",
+    "slug": "greek-crisis-eu-parliament-2015",
+    "title": "Greek Crisis EU Parliament Speech",
+    "date": "2015-07-08",
+    "venue": "EU Parliament",
+    "description": "Attacks EU handling of Greek debt crisis.",
+    "keyQuotes": [
+      "You have crucified Greece.",
+      "The euro is a complete disaster."
+    ],
+    "videoUrl": ""
+  },
+  {
+    "id": "migration-crisis-2015",
+    "slug": "migration-crisis-2015",
+    "title": "Migration Crisis EU Parliament Speech",
+    "date": "2015-09-09",
+    "venue": "EU Parliament",
+    "description": "Attacks Merkel open border policy.",
+    "keyQuotes": [
+      "This is madness.",
+      "Merkel has made a catastrophic error."
+    ],
+    "videoUrl": ""
+  }
 ]

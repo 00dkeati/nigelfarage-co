@@ -23,7 +23,7 @@ export default function SpeechesPage() {
           >
             <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
               <span className="bg-red-100 text-red-800 px-2 py-1 rounded text-xs capitalize">
-                {speech.category.replace('-', ' ')}
+                {speech.category?.replace('-', ' ')}
               </span>
               <span>•</span>
               <time>{new Date(speech.date).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</time>

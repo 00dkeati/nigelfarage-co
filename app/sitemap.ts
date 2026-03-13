@@ -91,7 +91,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly' as ChangeFrequency,
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/year`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/compare`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly' as ChangeFrequency,
+      priority: 0.7,
+    },
   ]
+
+  // Year pages
+  const years = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]
+  const yearPages: MetadataRoute.Sitemap = years.map((year) => ({
+    url: `${baseUrl}/year/${year}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as ChangeFrequency,
+    priority: 0.7,
+  }))
+
+  // Comparison pages
+  const comparisons = ['farage-vs-starmer', 'farage-vs-sunak', 'farage-vs-boris', 'reform-vs-conservatives', 'reform-vs-labour', 'farage-vs-tice', 'ukip-vs-reform']
+  const comparePages: MetadataRoute.Sitemap = comparisons.map((slug) => ({
+    url: `${baseUrl}/compare/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as ChangeFrequency,
+    priority: 0.7,
+  }))
 
   // Quote pages
   const quotePages: MetadataRoute.Sitemap = (quotes as any[]).map((q) => ({
@@ -149,5 +179,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...peoplePages,
     ...speechPages,
     ...topicPages,
+    ...yearPages,
+    ...comparePages,
   ]
 }

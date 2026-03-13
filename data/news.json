@@ -1,23 +1,391 @@
 [
-  {"id":0,"title":"Rupert Lowe's Restore Britain challenges Reform UK for right-wing vote","summary":"Former Reform MP Rupert Lowe launches Restore Britain as a registered political party, positioning it as a rival to Farage's Reform UK. Elon Musk endorses Lowe as 'the only one who will actually do it.'","source":"RupertLowe.co","date":"2026-02-14","url":"https://rupertlowe.co/restore-britain","category":"politics"},
-  {"id":1,"title":"Farage accused of 'Trump-style election denial' after Gorton byelection","summary":"Green MP Hannah Spencer accuses Farage of insulting voters after he claimed Reform 'came first' among British-born voters.","source":"The Guardian","date":"2026-03-02","url":"https://www.theguardian.com/politics/2026/mar/02/nigel-farage-emulating-his-hero-trump-gorton-and-denton-byelection-hannah-spencer","category":"politics"},
-  {"id":2,"title":"Farage to unveil Labour defectors 'next week'","summary":"Reform UK leader confirms 'a couple' of Labour MPs are set to defect to his party.","source":"Daily Express","date":"2026-03-02","url":"https://www.express.co.uk/news/politics/2177287/nigel-farage-labour-defection-reform-uk","category":"politics"},
-  {"id":3,"title":"Farage paid £27,000 to speak at pro-Trump US think tank","summary":"Reform leader to collect nearly £28k from Club for Growth.","source":"DeSmog","date":"2026-02-26","url":"https://www.desmog.com/2026/02/26/nigel-farage-to-be-paid-27000-to-speak-at-pro-trump-u-s-think-tank/","category":"international"},
-  {"id":4,"title":"Reform UK unveils plans to restrict postal voting","summary":"Party announces electoral reform proposals including removing voting rights for Commonwealth citizens.","source":"Metro","date":"2026-03-01","url":"https://metro.co.uk/2026/03/01/nigel-farage-says-allow-british-citizens-vote-uk-elections-27169537/","category":"policy"},
-  {"id":5,"title":"Suella Braverman defects to Reform UK","summary":"Former Conservative Home Secretary joins Farage's party.","source":"NBC News","date":"2026-02-24","url":"https://www.nbcnews.com/world/united-kingdom/reform-uk-braverman-maga-nigel-farage-trump-rcna256459","category":"politics"},
-  {"id":6,"title":"Farage announces Reform UK frontbench team","summary":"Reform leader unveils shadow cabinet.","source":"Politico","date":"2026-02-17","url":"https://www.politico.eu/article/uk-nigel-farage-reform-new-team-tells-us-about-bid-run-britain/","category":"politics"},
-  {"id":7,"title":"Reform UK leads polls for 10th consecutive month","summary":"Latest YouGov survey shows Reform at 24%, ahead of Labour and Conservatives.","source":"YouGov","date":"2026-02-15","url":"#","category":"polls"},
-  {"id":8,"title":"Farage denies Reform UK is 'far-right'","summary":"Leader rejects labels in heated TV interview.","source":"Sky News","date":"2026-02-10","url":"#","category":"politics"},
-  {"id":9,"title":"Reform UK membership hits record 200,000","summary":"Party announces surge in members following Braverman defection.","source":"Reform UK","date":"2026-02-05","url":"#","category":"party"},
-  {"id":10,"title":"Farage clashes with Starmer in Commons debate","summary":"First major parliamentary confrontation between the two leaders.","source":"BBC News","date":"2026-01-30","url":"#","category":"politics"},
-  {"id":11,"title":"Reform UK launches local election campaign","summary":"Party targets hundreds of council seats in May elections.","source":"The Telegraph","date":"2026-01-25","url":"#","category":"elections"},
-  {"id":12,"title":"Farage backs Trump tariffs on EU goods","summary":"Reform leader supports US President's trade policy.","source":"The Times","date":"2026-01-20","url":"#","category":"international"},
-  {"id":13,"title":"Reform UK policy launch: Full details revealed","summary":"Manifesto-style document outlines party's governing agenda.","source":"Reform UK","date":"2026-01-15","url":"#","category":"policy"},
-  {"id":14,"title":"Farage to address CPAC conference","summary":"British politician invited to speak at US conservative gathering.","source":"Breitbart","date":"2026-01-10","url":"#","category":"international"},
-  {"id":15,"title":"Tory MPs in 'secret talks' with Reform UK","summary":"Reports suggest multiple Conservative MPs considering defection.","source":"The Sun","date":"2026-01-05","url":"#","category":"politics"},
-  {"id":16,"title":"Reform UK sets out NHS reform plans","summary":"Party proposes major changes to healthcare system.","source":"The Independent","date":"2025-12-20","url":"#","category":"policy"},
-  {"id":17,"title":"Farage named 'Politician of the Year' by Spectator","summary":"Magazine awards controversial honour to Reform leader.","source":"The Spectator","date":"2025-12-15","url":"#","category":"awards"},
-  {"id":18,"title":"Reform UK wins Runcorn and Helsby by-election","summary":"First by-election victory for Farage's party.","source":"BBC News","date":"2025-11-28","url":"#","category":"elections"},
-  {"id":19,"title":"Farage meets Trump at Mar-a-Lago","summary":"Reform leader holds talks with US President.","source":"Daily Mail","date":"2025-11-15","url":"#","category":"international"},
-  {"id":20,"title":"Reform UK conference draws record attendance","summary":"Party faithful gather in Birmingham for annual conference.","source":"GB News","date":"2025-09-22","url":"#","category":"party"}
+  {
+    "id": 0,
+    "title": "Rupert Lowe's Restore Britain challenges Reform UK for right-wing vote",
+    "summary": "Former Reform MP Rupert Lowe launches Restore Britain as a registered political party, positioning it as a rival to Farage's Reform UK. Elon Musk endorses Lowe as 'the only one who will actually do it.'",
+    "source": "RupertLowe.co",
+    "date": "2026-02-14",
+    "url": "https://rupertlowe.co/restore-britain",
+    "category": "politics"
+  },
+  {
+    "id": 1,
+    "title": "Farage accused of 'Trump-style election denial' after Gorton byelection",
+    "summary": "Green MP Hannah Spencer accuses Farage of insulting voters after he claimed Reform 'came first' among British-born voters.",
+    "source": "The Guardian",
+    "date": "2026-03-02",
+    "url": "https://www.theguardian.com/politics/2026/mar/02/nigel-farage-emulating-his-hero-trump-gorton-and-denton-byelection-hannah-spencer",
+    "category": "politics"
+  },
+  {
+    "id": 2,
+    "title": "Farage to unveil Labour defectors 'next week'",
+    "summary": "Reform UK leader confirms 'a couple' of Labour MPs are set to defect to his party.",
+    "source": "Daily Express",
+    "date": "2026-03-02",
+    "url": "https://www.express.co.uk/news/politics/2177287/nigel-farage-labour-defection-reform-uk",
+    "category": "politics"
+  },
+  {
+    "id": 3,
+    "title": "Farage paid £27,000 to speak at pro-Trump US think tank",
+    "summary": "Reform leader to collect nearly £28k from Club for Growth.",
+    "source": "DeSmog",
+    "date": "2026-02-26",
+    "url": "https://www.desmog.com/2026/02/26/nigel-farage-to-be-paid-27000-to-speak-at-pro-trump-u-s-think-tank/",
+    "category": "international"
+  },
+  {
+    "id": 4,
+    "title": "Reform UK unveils plans to restrict postal voting",
+    "summary": "Party announces electoral reform proposals including removing voting rights for Commonwealth citizens.",
+    "source": "Metro",
+    "date": "2026-03-01",
+    "url": "https://metro.co.uk/2026/03/01/nigel-farage-says-allow-british-citizens-vote-uk-elections-27169537/",
+    "category": "policy"
+  },
+  {
+    "id": 5,
+    "title": "Suella Braverman defects to Reform UK",
+    "summary": "Former Conservative Home Secretary joins Farage's party.",
+    "source": "NBC News",
+    "date": "2026-02-24",
+    "url": "https://www.nbcnews.com/world/united-kingdom/reform-uk-braverman-maga-nigel-farage-trump-rcna256459",
+    "category": "politics"
+  },
+  {
+    "id": 6,
+    "title": "Farage announces Reform UK frontbench team",
+    "summary": "Reform leader unveils shadow cabinet.",
+    "source": "Politico",
+    "date": "2026-02-17",
+    "url": "https://www.politico.eu/article/uk-nigel-farage-reform-new-team-tells-us-about-bid-run-britain/",
+    "category": "politics"
+  },
+  {
+    "id": 7,
+    "title": "Reform UK leads polls for 10th consecutive month",
+    "summary": "Latest YouGov survey shows Reform at 24%, ahead of Labour and Conservatives.",
+    "source": "YouGov",
+    "date": "2026-02-15",
+    "url": "#",
+    "category": "polls"
+  },
+  {
+    "id": 8,
+    "title": "Farage denies Reform UK is 'far-right'",
+    "summary": "Leader rejects labels in heated TV interview.",
+    "source": "Sky News",
+    "date": "2026-02-10",
+    "url": "#",
+    "category": "politics"
+  },
+  {
+    "id": 9,
+    "title": "Reform UK membership hits record 200,000",
+    "summary": "Party announces surge in members following Braverman defection.",
+    "source": "Reform UK",
+    "date": "2026-02-05",
+    "url": "#",
+    "category": "party"
+  },
+  {
+    "id": 10,
+    "title": "Farage clashes with Starmer in Commons debate",
+    "summary": "First major parliamentary confrontation between the two leaders.",
+    "source": "BBC News",
+    "date": "2026-01-30",
+    "url": "#",
+    "category": "politics"
+  },
+  {
+    "id": 11,
+    "title": "Reform UK launches local election campaign",
+    "summary": "Party targets hundreds of council seats in May elections.",
+    "source": "The Telegraph",
+    "date": "2026-01-25",
+    "url": "#",
+    "category": "elections"
+  },
+  {
+    "id": 12,
+    "title": "Farage backs Trump tariffs on EU goods",
+    "summary": "Reform leader supports US President's trade policy.",
+    "source": "The Times",
+    "date": "2026-01-20",
+    "url": "#",
+    "category": "international"
+  },
+  {
+    "id": 13,
+    "title": "Reform UK policy launch: Full details revealed",
+    "summary": "Manifesto-style document outlines party's governing agenda.",
+    "source": "Reform UK",
+    "date": "2026-01-15",
+    "url": "#",
+    "category": "policy"
+  },
+  {
+    "id": 14,
+    "title": "Farage to address CPAC conference",
+    "summary": "British politician invited to speak at US conservative gathering.",
+    "source": "Breitbart",
+    "date": "2026-01-10",
+    "url": "#",
+    "category": "international"
+  },
+  {
+    "id": 15,
+    "title": "Tory MPs in 'secret talks' with Reform UK",
+    "summary": "Reports suggest multiple Conservative MPs considering defection.",
+    "source": "The Sun",
+    "date": "2026-01-05",
+    "url": "#",
+    "category": "politics"
+  },
+  {
+    "id": 16,
+    "title": "Reform UK sets out NHS reform plans",
+    "summary": "Party proposes major changes to healthcare system.",
+    "source": "The Independent",
+    "date": "2025-12-20",
+    "url": "#",
+    "category": "policy"
+  },
+  {
+    "id": 17,
+    "title": "Farage named 'Politician of the Year' by Spectator",
+    "summary": "Magazine awards controversial honour to Reform leader.",
+    "source": "The Spectator",
+    "date": "2025-12-15",
+    "url": "#",
+    "category": "awards"
+  },
+  {
+    "id": 18,
+    "title": "Reform UK wins Runcorn and Helsby by-election",
+    "summary": "First by-election victory for Farage's party.",
+    "source": "BBC News",
+    "date": "2025-11-28",
+    "url": "#",
+    "category": "elections"
+  },
+  {
+    "id": 19,
+    "title": "Farage meets Trump at Mar-a-Lago",
+    "summary": "Reform leader holds talks with US President.",
+    "source": "Daily Mail",
+    "date": "2025-11-15",
+    "url": "#",
+    "category": "international"
+  },
+  {
+    "id": 20,
+    "title": "Reform UK conference draws record attendance",
+    "summary": "Party faithful gather in Birmingham for annual conference.",
+    "source": "GB News",
+    "date": "2025-09-22",
+    "url": "#",
+    "category": "party"
+  },
+  {
+    "id": 21,
+    "slug": "reform-uk-frontbench-2026",
+    "title": "Reform UK Announces Shadow Cabinet",
+    "date": "2026-02-15",
+    "summary": "Nigel Farage unveils his frontbench team including Suella Braverman.",
+    "category": "politics"
+  },
+  {
+    "id": 22,
+    "slug": "braverman-defects-reform",
+    "title": "Suella Braverman Defects to Reform UK",
+    "date": "2026-01-20",
+    "summary": "Former Home Secretary joins Farage saying she has \"come home\".",
+    "category": "politics"
+  },
+  {
+    "id": 23,
+    "slug": "reform-polling-lead-2026",
+    "title": "Reform UK Maintains Polling Lead",
+    "date": "2026-03-01",
+    "summary": "Latest polls show Reform UK at 24%, ahead of Labour and Conservatives.",
+    "category": "polls"
+  },
+  {
+    "id": 24,
+    "slug": "farage-trump-mar-a-lago",
+    "title": "Farage Visits Trump at Mar-a-Lago",
+    "date": "2026-02-28",
+    "summary": "Reform UK leader meets with President Trump in Florida.",
+    "category": "international"
+  },
+  {
+    "id": 25,
+    "slug": "reform-membership-100k",
+    "title": "Reform UK Membership Hits 100,000",
+    "date": "2025-12-15",
+    "summary": "Party announces milestone as grassroots support surges.",
+    "category": "party"
+  },
+  {
+    "id": 26,
+    "slug": "lowe-suspended-reform",
+    "title": "Rupert Lowe Suspended from Reform UK",
+    "date": "2025-03-20",
+    "summary": "Great Yarmouth MP suspended amid party tensions.",
+    "category": "party"
+  },
+  {
+    "id": 27,
+    "slug": "restore-britain-launch",
+    "title": "Rupert Lowe Launches Restore Britain",
+    "date": "2026-02-01",
+    "summary": "Former Reform MP announces new political party with Musk backing.",
+    "category": "politics"
+  },
+  {
+    "id": 28,
+    "slug": "farage-clacton-victory",
+    "title": "Farage Finally Wins Westminster Seat",
+    "date": "2024-07-05",
+    "summary": "After 8 attempts, Nigel Farage elected MP for Clacton with 46% of vote.",
+    "category": "elections"
+  },
+  {
+    "id": 29,
+    "slug": "reform-5-mps-elected",
+    "title": "Reform UK Wins 5 Seats in 2024 Election",
+    "date": "2024-07-05",
+    "summary": "Historic breakthrough as Reform wins over 4 million votes.",
+    "category": "elections"
+  },
+  {
+    "id": 30,
+    "slug": "farage-returns-reform-leader",
+    "title": "Farage Returns as Reform UK Leader",
+    "date": "2024-06-03",
+    "summary": "Nigel Farage announces shock return to frontline politics.",
+    "category": "party"
+  },
+  {
+    "id": 31,
+    "slug": "coutts-scandal-farage",
+    "title": "Coutts Bank Closes Farage Account",
+    "date": "2023-06-29",
+    "summary": "Banking scandal rocks establishment as Farage reveals political motivation.",
+    "category": "controversy"
+  },
+  {
+    "id": 32,
+    "slug": "natwest-ceo-resigns",
+    "title": "NatWest CEO Resigns Over Farage Scandal",
+    "date": "2023-07-25",
+    "summary": "Alison Rose steps down after admitting discussing Farage account.",
+    "category": "controversy"
+  },
+  {
+    "id": 33,
+    "slug": "farage-im-a-celebrity",
+    "title": "Farage Finishes Third on Im A Celebrity",
+    "date": "2023-12-10",
+    "summary": "Politician wins over viewers in Australian jungle.",
+    "category": "media"
+  },
+  {
+    "id": 34,
+    "slug": "brexit-party-wins-eu-elections",
+    "title": "Brexit Party Wins European Elections",
+    "date": "2019-05-27",
+    "summary": "New party wins just 6 weeks after launch with 31.6% of vote.",
+    "category": "elections"
+  },
+  {
+    "id": 35,
+    "slug": "farage-milkshake-incident",
+    "title": "Farage Hit by Milkshake in Newcastle",
+    "date": "2019-05-20",
+    "summary": "Protester throws milkshake over Brexit Party leader.",
+    "category": "controversy"
+  },
+  {
+    "id": 36,
+    "slug": "farage-launches-brexit-party",
+    "title": "Farage Launches Brexit Party",
+    "date": "2019-04-12",
+    "summary": "New party formed to fight for \"proper Brexit\" as May delays departure.",
+    "category": "party"
+  },
+  {
+    "id": 37,
+    "slug": "farage-leaves-ukip",
+    "title": "Farage Quits UKIP Over Tommy Robinson",
+    "date": "2018-12-04",
+    "summary": "Founding member leaves party citing \"fixation\" with far-right activist.",
+    "category": "party"
+  },
+  {
+    "id": 38,
+    "slug": "brexit-referendum-result",
+    "title": "Britain Votes to Leave EU",
+    "date": "2016-06-24",
+    "summary": "Farage declares \"Independence Day\" as Leave wins 52-48.",
+    "category": "brexit"
+  },
+  {
+    "id": 39,
+    "slug": "breaking-point-poster",
+    "title": "Farage Unveils Breaking Point Poster",
+    "date": "2016-06-16",
+    "summary": "Controversial immigration poster draws widespread criticism.",
+    "category": "controversy"
+  },
+  {
+    "id": 40,
+    "slug": "farage-meets-trump-2016",
+    "title": "Farage First Foreign Politician to Meet Trump",
+    "date": "2016-11-12",
+    "summary": "Brexit leader visits President-elect at Trump Tower.",
+    "category": "international"
+  },
+  {
+    "id": 41,
+    "slug": "ukip-wins-european-elections",
+    "title": "UKIP Wins European Elections",
+    "date": "2014-05-26",
+    "summary": "First time party other than Lab/Con wins national election since 1906.",
+    "category": "elections"
+  },
+  {
+    "id": 42,
+    "slug": "farage-plane-crash",
+    "title": "Farage Survives Election Day Plane Crash",
+    "date": "2010-05-06",
+    "summary": "UKIP leader pulled from wreckage with serious injuries.",
+    "category": "personal"
+  },
+  {
+    "id": 43,
+    "slug": "who-are-you-speech",
+    "title": "Farage \"Who Are You?\" Speech to Van Rompuy",
+    "date": "2010-02-24",
+    "summary": "Famous attack on EU President goes viral.",
+    "category": "speeches"
+  },
+  {
+    "id": 44,
+    "slug": "farage-small-boats-campaign",
+    "title": "Farage Highlights Channel Crossing Crisis",
+    "date": "2020-08-10",
+    "summary": "Reform leader documents migrant boats arriving on English coast.",
+    "category": "immigration"
+  },
+  {
+    "id": 45,
+    "slug": "farage-gb-news-launch",
+    "title": "Farage Launches GB News Show",
+    "date": "2021-06-13",
+    "summary": "Former politician returns to broadcasting with nightly programme.",
+    "category": "media"
+  }
 ]

@@ -36,7 +36,7 @@ export default function SpeechPage({ params }: Props) {
           <a href="/speeches" className="text-blue-600 hover:underline">← All Speeches</a>
           <span>•</span>
           <span className="bg-red-100 text-red-800 px-2 py-1 rounded text-xs capitalize">
-            {speech.category.replace('-', ' ')}
+            {speech.category?.replace('-', ' ')}
           </span>
         </div>
         <h1 className="text-4xl font-bold mb-4">{speech.title}</h1>

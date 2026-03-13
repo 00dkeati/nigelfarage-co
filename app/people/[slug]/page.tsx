@@ -64,6 +64,25 @@ export default function PersonPage({ params }: Props) {
               Born: {new Date(person.born).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}
             </p>
           )}
+
+          {(person as any).website && (
+            <a 
+              href={(person as any).website}
+              target="_blank"
+              rel="noopener"
+              className="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
+            >
+              Visit Official Website →
+            </a>
+          )}
+
+          {(person as any).leftReform && (
+            <div className="mt-6 bg-yellow-50 border border-yellow-200 p-4 rounded-lg">
+              <p className="text-yellow-800 text-sm">
+                <strong>Note:</strong> This person left Reform UK in {(person as any).leftReform} and is no longer affiliated with the party.
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </div>

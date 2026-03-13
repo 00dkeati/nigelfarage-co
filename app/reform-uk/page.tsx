@@ -62,6 +62,34 @@ export default function ReformUKPage() {
         ))}
       </div>
 
+      {/* Restore Britain Split */}
+      <section className="mt-12">
+        <h2 className="text-3xl font-bold mb-6">The Restore Britain Split</h2>
+        <div className="bg-red-50 border border-red-200 p-6 rounded-lg">
+          <p className="text-gray-700 mb-4">
+            In March 2025, <strong>Rupert Lowe</strong> (MP for Great Yarmouth) was suspended from Reform UK 
+            following a dispute with party chairman Zia Yusuf. Lowe subsequently founded 
+            <strong> Restore Britain</strong>, which launched as a registered political party in February 2026.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Restore Britain positions itself to the right of Reform UK, with Lowe receiving a high-profile 
+            endorsement from <strong>Elon Musk</strong>, who called him "the only one who will actually do it."
+          </p>
+          <p className="text-gray-700">
+            The split has created a rivalry for voters on the right of British politics, with both parties 
+            competing for similar demographics ahead of the next general election.
+          </p>
+          <a 
+            href="https://rupertlowe.co" 
+            target="_blank" 
+            rel="noopener"
+            className="inline-block mt-4 text-blue-600 hover:text-blue-800 font-semibold"
+          >
+            Learn more about Rupert Lowe and Restore Britain →
+          </a>
+        </div>
+      </section>
+
       {/* Leadership section */}
       <section className="mt-12">
         <h2 className="text-3xl font-bold mb-6">Leadership</h2>

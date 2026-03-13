@@ -198,6 +198,9 @@ export default function RootLayout({
             <div className="text-center text-gray-600 border-t pt-6">
               <p>NigelFarage.co is an independent informational resource.</p>
               <p className="text-sm mt-2">Not affiliated with Nigel Farage or Reform UK.</p>
+              <p className="text-sm mt-4 text-gray-500">
+                Built by <a href="https://deankeating.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline font-medium">Dean Keating</a>
+              </p>
             </div>
           </div>
         </footer>

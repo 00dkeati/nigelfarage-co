@@ -126,7 +126,8 @@ export default function AdvertisePage() {
                   </div>
                 </div>
                 <a 
-                  href="mailto:ads@nigelfarage.co?subject=TICKER AD - £3/month&body=Hi! I want a ticker ad on NigelFarage.co%0A%0AMy message (max 100 chars):%0A%0A%0APayment: I understand you'll send me a £3/month payment link"
+                  href="https://buy.stripe.com/fZu3cpaWE8oggQo9uZ3Ru0B"
+                  target="_blank"
                   className="block w-full bg-yellow-400 text-black text-center py-4 rounded-xl font-bold text-lg hover:bg-yellow-500 transition-colors shadow-md"
                 >
                   Get This →
@@ -173,7 +174,8 @@ export default function AdvertisePage() {
                   </div>
                 </div>
                 <a 
-                  href="mailto:ads@nigelfarage.co?subject=IMAGE AD - £10/month&body=Hi! I want an image ad on NigelFarage.co%0A%0ABusiness/Brand:%0AWebsite URL:%0ACaption text:%0A%0AI'll attach my 150x150 image to this email.%0A%0APayment: I understand you'll send me a £10/month payment link"
+                  href="https://buy.stripe.com/7sYcMZ7KseME1Vu6iN3Ru0C"
+                  target="_blank"
                   className="block w-full bg-blue-500 text-white text-center py-4 rounded-xl font-bold text-lg hover:bg-blue-600 transition-colors shadow-md"
                 >
                   Get This →
@@ -217,7 +219,8 @@ export default function AdvertisePage() {
                   </div>
                 </div>
                 <a 
-                  href="mailto:ads@nigelfarage.co?subject=BANNER AD - £50/month&body=Hi! I want a premium banner on NigelFarage.co%0A%0ABusiness/Brand:%0AWebsite URL:%0A%0AI'll attach my 728x90 banner to this email.%0A%0APayment: I understand you'll send me a £50/month payment link"
+                  href="https://buy.stripe.com/28E8wJ0i00VOas0dLf3Ru0D"
+                  target="_blank"
                   className="block w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white text-center py-4 rounded-xl font-bold text-lg hover:opacity-90 transition-opacity shadow-md"
                 >
                   Get This →
@@ -241,13 +244,13 @@ export default function AdvertisePage() {
             </div>
             <div>
               <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-3">2</div>
-              <h3 className="font-bold mb-1">Send Your Ad</h3>
-              <p className="text-gray-600 text-sm">Email us your message or image</p>
+              <h3 className="font-bold mb-1">Enter Your Ad</h3>
+              <p className="text-gray-600 text-sm">Type your message at checkout</p>
             </div>
             <div>
               <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-3">3</div>
-              <h3 className="font-bold mb-1">Go Live</h3>
-              <p className="text-gray-600 text-sm">Pay & you're live within 24hrs</p>
+              <h3 className="font-bold mb-1">Pay & Go Live</h3>
+              <p className="text-gray-600 text-sm">Instant checkout, live in 24hrs</p>
             </div>
           </div>
         </div>
@@ -276,7 +279,7 @@ export default function AdvertisePage() {
             <details className="bg-white p-4 rounded-lg shadow-sm">
               <summary className="font-bold cursor-pointer">How do I pay?</summary>
               <p className="text-gray-600 mt-2 text-sm">
-                Email us your ad → we send a Stripe payment link → you pay → ad goes live within 24 hours. Simple.
+                Click the button, enter your ad details, pay with card. Done. Your ad goes live within 24 hours.
               </p>
             </details>
             

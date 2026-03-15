@@ -134,6 +134,7 @@ export default function RootLayout({
                 <a href="/topics" className="hover:text-blue-200">Topics</a>
                 <a href="/people" className="hover:text-blue-200">People</a>
                 <a href="/news" className="hover:text-blue-200">News</a>
+                <a href="/advertise" className="hover:text-yellow-300 text-yellow-400 font-bold">Advertise</a>
               </div>
               {/* Mobile Menu */}
               <div className="md:hidden">
@@ -153,6 +154,7 @@ export default function RootLayout({
                     <a href="/faq" className="block px-4 py-2 hover:bg-blue-800">FAQ</a>
                     <a href="/timeline" className="block px-4 py-2 hover:bg-blue-800">Timeline</a>
                     <a href="/reform-uk" className="block px-4 py-2 hover:bg-blue-800">Reform UK</a>
+                    <a href="/advertise" className="block px-4 py-2 hover:bg-blue-800 text-yellow-400 font-bold">Advertise</a>
                   </div>
                 </details>
               </div>
@@ -185,6 +187,7 @@ export default function RootLayout({
                   <li><a href="/news" className="hover:text-blue-600">Latest News</a></li>
                   <li><a href="/people" className="hover:text-blue-600">Key People</a></li>
                   <li><a href="/faq" className="hover:text-blue-600">FAQ</a></li>
+                  <li><a href="/advertise" className="hover:text-yellow-500 text-yellow-600 font-bold">Advertise</a></li>
                 </ul>
               </div>
               <div>

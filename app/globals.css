@@ -22,3 +22,30 @@ body {
 .policy-card {
   @apply bg-gray-50 p-6 rounded-lg border;
 }
+
+/* Ticker animation for advertise page */
+.ticker-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.ticker-content {
+  display: inline-flex;
+  animation: ticker 30s linear infinite;
+  white-space: nowrap;
+}
+
+.ticker-item {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.ticker-separator {
+  margin: 0 2rem;
+  opacity: 0.5;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

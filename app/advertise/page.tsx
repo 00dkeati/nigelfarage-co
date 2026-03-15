@@ -13,13 +13,13 @@ export const metadata: Metadata = {
   },
 }
 
-// Demo ticker messages
+// Live ticker messages - real ads + examples
 const demoMessages = [
+  "💻 Web Design by Dean Keating - deankeating.com",
+  "🎪 Bouncy Castle Hampshire - hampshirebouncycastles.com",
+  "📍 Waterlooville.co - Your Local Waterlooville Directory",
   "🍺 Visit the Brexit Pub - Real Ale for Real Patriots",
-  "📚 Buy my ebook: 'How I Left the EU (Emotionally)'",
   "🇬🇧 Dave's Chippy - Best Fish & Chips in Clacton",
-  "🎸 Learn guitar in 30 days - 50% off for readers",
-  "🚗 Barry's Used Cars - Deals so good they should be illegal",
   "☕ Greggs: Now serving sovereignty with every sausage roll",
 ]
 

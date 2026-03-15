@@ -13,14 +13,14 @@ export default function Home() {
   const latestEvents = timeline.slice(-3).reverse()
   const featuredQuotes = quotes.slice(0, 3)
 
-  // Demo ticker messages - mix of examples + advertise CTA
+  // Live ticker ads + advertise CTAs
   const tickerMessages = [
+    "💻 Web Design by Dean Keating - deankeating.com",
     "🎯 YOUR AD HERE - From £3/month",
-    "🍺 Visit the Brexit Pub - Real Ale for Real Patriots",
+    "🎪 Bouncy Castle Hampshire - hampshirebouncycastles.com",
     "📢 ADVERTISE ON THIS SITE →",
-    "🇬🇧 Dave's Chippy - Best Fish & Chips in Clacton",
+    "📍 Waterlooville.co - Your Local Waterlooville Directory",
     "💰 Get YOUR message here - £3/month",
-    "☕ Greggs: Now serving sovereignty with every sausage roll",
   ]
 
   return (

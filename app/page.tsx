@@ -13,8 +13,34 @@ export default function Home() {
   const latestEvents = timeline.slice(-3).reverse()
   const featuredQuotes = quotes.slice(0, 3)
 
+  // Demo ticker messages - mix of examples + advertise CTA
+  const tickerMessages = [
+    "🎯 YOUR AD HERE - From £3/month",
+    "🍺 Visit the Brexit Pub - Real Ale for Real Patriots",
+    "📢 ADVERTISE ON THIS SITE →",
+    "🇬🇧 Dave's Chippy - Best Fish & Chips in Clacton",
+    "💰 Get YOUR message here - £3/month",
+    "☕ Greggs: Now serving sovereignty with every sausage roll",
+  ]
+
   return (
     <div>
+      {/* TICKER BAR */}
+      <a href="/advertise" className="block">
+        <div className="bg-yellow-400 text-black py-2 overflow-hidden border-b-4 border-yellow-600 hover:bg-yellow-300 transition-colors cursor-pointer">
+          <div className="ticker-wrapper">
+            <div className="ticker-content">
+              {[...tickerMessages, ...tickerMessages].map((msg, i) => (
+                <span key={i} className="ticker-item">
+                  {msg}
+                  <span className="ticker-separator">•</span>
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+      </a>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-[#1e3a5f] to-[#2d5a87] text-white py-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-20">

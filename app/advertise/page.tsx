@@ -2,9 +2,14 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Advertise on NigelFarage.co - From Just £3/month',
-  description: 'Get your message seen on NigelFarage.co. Ticker ads from £3/month, image ads from £10/month, premium banners from £50/month.',
+  description: 'Get your message on NigelFarage.co from £3/month. Say whatever you want. Limited spots available.',
   alternates: {
     canonical: '/advertise',
+  },
+  openGraph: {
+    title: '🎪 Advertise on NigelFarage.co - £3/month',
+    description: 'Say whatever you want on a website about Nigel Farage. Ticker ads from £3. Image ads from £10. Banners from £50.',
+    images: ['/images/official-portrait-mp.jpg'],
   },
 }
 
@@ -12,13 +17,9 @@ export const metadata: Metadata = {
 const demoMessages = [
   "🍺 Visit the Brexit Pub - Real Ale for Real Patriots",
   "📚 Buy my ebook: 'How I Left the EU (Emotionally)'",
-  "🐸 PEPE LIVES MATTER",
   "🇬🇧 Dave's Chippy - Best Fish & Chips in Clacton",
-  "⚡ FARAGE 2028 - Make Britain Banter Again",
-  "🍻 Wetherspoons: 15% off with code BREXIT",
-  "🎸 Learn guitar in 30 days - NigelFarage.co readers get 50% off",
-  "🚗 Barry's Used Cars - Deals so good they should be illegal (but aren't)",
-  "🦷 NHS Dentist Available - No, seriously, we found one",
+  "🎸 Learn guitar in 30 days - 50% off for readers",
+  "🚗 Barry's Used Cars - Deals so good they should be illegal",
   "☕ Greggs: Now serving sovereignty with every sausage roll",
 ]
 
@@ -39,275 +40,279 @@ export default function AdvertisePage() {
         </div>
       </div>
 
-      {/* Hero */}
-      <section className="bg-gradient-to-r from-purple-900 via-purple-700 to-pink-600 text-white py-16">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">
-            🎪 Advertise on NigelFarage.co
+      {/* Hero - Punchy & Mobile First */}
+      <section className="bg-gradient-to-br from-purple-900 via-purple-700 to-pink-600 text-white py-12 px-4">
+        <div className="max-w-2xl mx-auto text-center">
+          <div className="inline-block bg-yellow-400 text-black text-sm font-bold px-4 py-1 rounded-full mb-4 animate-pulse">
+            🚀 LAUNCH SPECIAL - LIMITED SPOTS
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Your Ad on Nigel Farage's Website
           </h1>
-          <p className="text-2xl text-purple-100 mb-6">
-            Say whatever you want.* We don't care. Neither does he (probably).
+          <p className="text-xl text-purple-100 mb-2">
+            From just <span className="text-yellow-400 font-bold text-3xl">£3/month</span>
           </p>
-          <p className="text-sm text-purple-200">
-            *Terms apply. No illegal stuff. We reserve the right to laugh at your ad.
+          <p className="text-purple-200 mb-8">
+            Say whatever you want.* 10,000+ monthly visitors.
           </p>
+          <a 
+            href="#pricing"
+            className="inline-block bg-yellow-400 text-black px-8 py-4 rounded-full text-xl font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg"
+          >
+            See Pricing ↓
+          </a>
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="bg-gray-900 text-white py-8">
+      {/* Social Proof Bar */}
+      <section className="bg-gray-900 text-white py-4">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="grid grid-cols-3 gap-4 text-center">
-            <div>
-              <div className="text-3xl font-bold text-yellow-400">10,000+</div>
-              <div className="text-gray-400 text-sm">Monthly Visitors</div>
+          <div className="flex flex-wrap justify-center items-center gap-6 text-center text-sm">
+            <div className="flex items-center gap-2">
+              <span className="text-yellow-400 text-xl">✓</span>
+              <span>10,000+ monthly visitors</span>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-yellow-400">£3</div>
-              <div className="text-gray-400 text-sm">Starting Price</div>
+            <div className="flex items-center gap-2">
+              <span className="text-yellow-400 text-xl">✓</span>
+              <span>Live in 24 hours</span>
             </div>
-            <div>
-              <div className="text-3xl font-bold text-yellow-400">100%</div>
-              <div className="text-gray-400 text-sm">Chaos Guaranteed</div>
+            <div className="flex items-center gap-2">
+              <span className="text-yellow-400 text-xl">✓</span>
+              <span>Cancel anytime</span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Pricing Tiers */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-4">Choose Your Chaos Level</h2>
-          <p className="text-center text-gray-600 mb-12">All ads run for 1 month. Cancel anytime.</p>
+      {/* Pricing Cards */}
+      <section id="pricing" className="py-12 px-4 bg-gray-50">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-2">Choose Your Spot</h2>
+          <p className="text-center text-gray-600 mb-8">One-time setup. Cancel anytime.</p>
           
-          <div className="grid md:grid-cols-3 gap-8">
-            {/* Tier 1: Ticker */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-yellow-400 transform hover:scale-105 transition-transform">
-              <div className="bg-yellow-400 text-black py-4 px-6">
-                <div className="text-sm font-bold uppercase tracking-wide">The Ticker</div>
-                <div className="text-4xl font-bold">£3<span className="text-lg">/month</span></div>
+          <div className="grid md:grid-cols-3 gap-6">
+            {/* Tier 1: Ticker - MOST POPULAR */}
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-yellow-400 transform hover:scale-105 transition-transform relative">
+              <div className="absolute -top-0 left-0 right-0 bg-green-500 text-white text-center text-xs font-bold py-1">
+                ⚡ MOST POPULAR
+              </div>
+              <div className="bg-yellow-400 text-black py-6 px-6 mt-5">
+                <div className="text-sm font-bold uppercase tracking-wide">Ticker Message</div>
+                <div className="text-5xl font-bold">£3<span className="text-lg font-normal">/mo</span></div>
               </div>
               <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Text message in scrolling ticker</span>
+                <ul className="space-y-3 mb-6 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Your message scrolls across <strong>every page</strong></span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Up to 100 characters</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Up to 100 characters + emojis 🎉</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Emojis allowed 🎉</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Live within 24 hours</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Visible on every page</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Perfect for jokes, promos, hot takes</span>
                   </li>
                 </ul>
-                <div className="bg-yellow-100 p-3 rounded-lg mb-6">
-                  <div className="text-xs text-gray-500 mb-1">PREVIEW:</div>
-                  <div className="font-mono text-sm truncate">
-                    🔥 Your message scrolls like this! 🔥
+                <div className="bg-yellow-50 p-3 rounded-lg mb-4 border border-yellow-200">
+                  <div className="text-xs text-gray-500 mb-1">YOUR MESSAGE LOOKS LIKE:</div>
+                  <div className="font-semibold text-sm">
+                    🔥 Your text scrolls here forever! 🔥
                   </div>
                 </div>
                 <a 
-                  href="mailto:ads@nigelfarage.co?subject=Ticker Ad (£3/month)&body=I want to advertise on NigelFarage.co!%0A%0AMy ticker message (max 100 chars):%0A%0A"
-                  className="block w-full bg-yellow-400 text-black text-center py-3 rounded-lg font-bold hover:bg-yellow-500 transition-colors"
+                  href="mailto:ads@nigelfarage.co?subject=TICKER AD - £3/month&body=Hi! I want a ticker ad on NigelFarage.co%0A%0AMy message (max 100 chars):%0A%0A%0APayment: I understand you'll send me a £3/month payment link"
+                  className="block w-full bg-yellow-400 text-black text-center py-4 rounded-xl font-bold text-lg hover:bg-yellow-500 transition-colors shadow-md"
                 >
-                  Get Started →
+                  Get This →
                 </a>
+                <p className="text-xs text-gray-500 text-center mt-2">76 spots remaining</p>
               </div>
             </div>
 
             {/* Tier 2: Image Ad */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-blue-500 transform hover:scale-105 transition-transform">
-              <div className="bg-blue-500 text-white py-4 px-6">
-                <div className="text-sm font-bold uppercase tracking-wide">Image Ad</div>
-                <div className="text-4xl font-bold">£10<span className="text-lg">/month</span></div>
+              <div className="bg-blue-500 text-white py-6 px-6">
+                <div className="text-sm font-bold uppercase tracking-wide">Image Tile</div>
+                <div className="text-5xl font-bold">£10<span className="text-lg font-normal">/mo</span></div>
               </div>
               <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>150x150px image tile</span>
+                <ul className="space-y-3 mb-6 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span><strong>Your logo/image</strong> displayed on sidebar</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Short text caption</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Clickable link to your site</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Clickable link</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>150x150px tile + short caption</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Sidebar placement</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Great for businesses & creators</span>
                   </li>
                 </ul>
-                <div className="bg-blue-50 p-3 rounded-lg mb-6">
-                  <div className="text-xs text-gray-500 mb-1">PREVIEW:</div>
+                <div className="bg-blue-50 p-3 rounded-lg mb-4 border border-blue-200">
+                  <div className="text-xs text-gray-500 mb-2">YOUR AD LOOKS LIKE:</div>
                   <div className="flex items-center gap-3">
-                    <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">
-                      AD
+                    <div className="w-14 h-14 bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold text-xs">
+                      LOGO
                     </div>
-                    <div className="text-sm">Your Business Here</div>
+                    <div>
+                      <div className="font-semibold text-sm">Your Business</div>
+                      <div className="text-xs text-blue-600">yoursite.com →</div>
+                    </div>
                   </div>
                 </div>
                 <a 
-                  href="mailto:ads@nigelfarage.co?subject=Image Ad (£10/month)&body=I want an image ad on NigelFarage.co!%0A%0ABusiness name:%0AWebsite URL:%0A%0A(Attach your 150x150 image)"
-                  className="block w-full bg-blue-500 text-white text-center py-3 rounded-lg font-bold hover:bg-blue-600 transition-colors"
+                  href="mailto:ads@nigelfarage.co?subject=IMAGE AD - £10/month&body=Hi! I want an image ad on NigelFarage.co%0A%0ABusiness/Brand:%0AWebsite URL:%0ACaption text:%0A%0AI'll attach my 150x150 image to this email.%0A%0APayment: I understand you'll send me a £10/month payment link"
+                  className="block w-full bg-blue-500 text-white text-center py-4 rounded-xl font-bold text-lg hover:bg-blue-600 transition-colors shadow-md"
                 >
-                  Get Started →
+                  Get This →
                 </a>
+                <p className="text-xs text-gray-500 text-center mt-2">32 spots remaining</p>
               </div>
             </div>
 
-            {/* Tier 3: Banner */}
+            {/* Tier 3: Banner - PREMIUM */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden border-4 border-purple-600 transform hover:scale-105 transition-transform relative">
-              <div className="absolute -top-3 right-4 bg-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-                PREMIUM
+              <div className="absolute -top-0 left-0 right-0 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-center text-xs font-bold py-1">
+                👑 PREMIUM
               </div>
-              <div className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-4 px-6">
+              <div className="bg-gradient-to-r from-purple-600 to-pink-500 text-white py-6 px-6 mt-5">
                 <div className="text-sm font-bold uppercase tracking-wide">Banner Ad</div>
-                <div className="text-4xl font-bold">£50<span className="text-lg">/month</span></div>
+                <div className="text-5xl font-bold">£50<span className="text-lg font-normal">/mo</span></div>
               </div>
               <div className="p-6">
-                <ul className="space-y-3 mb-6">
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>728x90px banner</span>
+                <ul className="space-y-3 mb-6 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span><strong>Prime homepage placement</strong></span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Prime homepage placement</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Large 728x90 banner</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Clickable link</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Maximum visibility & clicks</span>
                   </li>
-                  <li className="flex items-center gap-2">
-                    <span className="text-green-500">✓</span>
-                    <span>Maximum visibility</span>
+                  <li className="flex items-start gap-2">
+                    <span className="text-green-500 mt-0.5">✓</span>
+                    <span>Best for serious promotions</span>
                   </li>
                 </ul>
-                <div className="bg-purple-50 p-3 rounded-lg mb-6">
-                  <div className="text-xs text-gray-500 mb-1">PREVIEW:</div>
-                  <div className="bg-gradient-to-r from-purple-600 to-pink-500 rounded h-8 flex items-center justify-center text-white text-xs font-bold">
-                    YOUR BANNER AD HERE - 728x90
+                <div className="bg-purple-50 p-3 rounded-lg mb-4 border border-purple-200">
+                  <div className="text-xs text-gray-500 mb-2">YOUR BANNER LOOKS LIKE:</div>
+                  <div className="bg-gradient-to-r from-purple-600 to-pink-500 rounded h-10 flex items-center justify-center text-white text-xs font-bold">
+                    YOUR BANNER AD - PRIME SPOT
                   </div>
                 </div>
                 <a 
-                  href="mailto:ads@nigelfarage.co?subject=Banner Ad (£50/month)&body=I want a premium banner on NigelFarage.co!%0A%0ABusiness name:%0AWebsite URL:%0A%0A(Attach your 728x90 banner)"
-                  className="block w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white text-center py-3 rounded-lg font-bold hover:opacity-90 transition-opacity"
+                  href="mailto:ads@nigelfarage.co?subject=BANNER AD - £50/month&body=Hi! I want a premium banner on NigelFarage.co%0A%0ABusiness/Brand:%0AWebsite URL:%0A%0AI'll attach my 728x90 banner to this email.%0A%0APayment: I understand you'll send me a £50/month payment link"
+                  className="block w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white text-center py-4 rounded-xl font-bold text-lg hover:opacity-90 transition-opacity shadow-md"
                 >
-                  Get Started →
+                  Get This →
                 </a>
+                <p className="text-xs text-gray-500 text-center mt-2">Only 4 spots</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Example Zone Visualization */}
-      <section className="py-16">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Where Your Ad Appears</h2>
+      {/* How It Works - Simple */}
+      <section className="py-12 px-4 bg-white">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-8">How It Works</h2>
+          <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div>
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-3">1</div>
+              <h3 className="font-bold mb-1">Pick Your Tier</h3>
+              <p className="text-gray-600 text-sm">£3 ticker, £10 image, or £50 banner</p>
+            </div>
+            <div>
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-3">2</div>
+              <h3 className="font-bold mb-1">Send Your Ad</h3>
+              <p className="text-gray-600 text-sm">Email us your message or image</p>
+            </div>
+            <div>
+              <div className="w-12 h-12 bg-yellow-400 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-3">3</div>
+              <h3 className="font-bold mb-1">Go Live</h3>
+              <p className="text-gray-600 text-sm">Pay & you're live within 24hrs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ - Collapsed */}
+      <section className="py-12 px-4 bg-gray-50">
+        <div className="max-w-2xl mx-auto">
+          <h2 className="text-2xl font-bold text-center mb-6">Quick Questions</h2>
           
-          <div className="border-4 border-dashed border-gray-300 rounded-xl p-4 bg-gray-50">
-            {/* Mock ticker */}
-            <div className="bg-yellow-400 rounded-lg p-2 mb-4 text-center text-sm font-mono">
-              ← TICKER ADS SCROLL HERE (£3/month) →
-            </div>
+          <div className="space-y-4">
+            <details className="bg-white p-4 rounded-lg shadow-sm">
+              <summary className="font-bold cursor-pointer">Can I really say anything?</summary>
+              <p className="text-gray-600 mt-2 text-sm">
+                Almost! No illegal stuff, no doxxing, nothing explicit. Political jokes, hot takes, business promos, weird flex? All good.
+              </p>
+            </details>
             
-            {/* Mock layout */}
-            <div className="flex gap-4">
-              {/* Main content area */}
-              <div className="flex-1 space-y-4">
-                {/* Banner zone */}
-                <div className="bg-gradient-to-r from-purple-200 to-pink-200 rounded-lg p-4 text-center border-2 border-purple-400">
-                  PREMIUM BANNER ZONE (£50/month)
-                </div>
-                
-                {/* Content placeholder */}
-                <div className="bg-gray-200 rounded-lg p-8 text-center text-gray-500">
-                  [Site Content]
-                </div>
-                <div className="bg-gray-200 rounded-lg p-8 text-center text-gray-500">
-                  [More Content]
-                </div>
-              </div>
-              
-              {/* Sidebar */}
-              <div className="w-48 space-y-2">
-                <div className="text-xs text-center text-gray-500 mb-2">IMAGE ADS</div>
-                {[1,2,3,4].map((n) => (
-                  <div key={n} className="bg-blue-100 border-2 border-blue-400 rounded-lg aspect-square flex items-center justify-center text-blue-600 font-bold text-xs">
-                    £10/mo
-                  </div>
-                ))}
-              </div>
-            </div>
+            <details className="bg-white p-4 rounded-lg shadow-sm">
+              <summary className="font-bold cursor-pointer">Is this site actually real?</summary>
+              <p className="text-gray-600 mt-2 text-sm">
+                100% real. Real visitors, real ads, real website. We're not affiliated with Nigel Farage - just capitalizing on the domain.
+              </p>
+            </details>
+            
+            <details className="bg-white p-4 rounded-lg shadow-sm">
+              <summary className="font-bold cursor-pointer">How do I pay?</summary>
+              <p className="text-gray-600 mt-2 text-sm">
+                Email us your ad → we send a Stripe payment link → you pay → ad goes live within 24 hours. Simple.
+              </p>
+            </details>
+            
+            <details className="bg-white p-4 rounded-lg shadow-sm">
+              <summary className="font-bold cursor-pointer">Can I cancel?</summary>
+              <p className="text-gray-600 mt-2 text-sm">
+                Yes, cancel anytime. Your ad runs until the end of your paid period.
+              </p>
+            </details>
           </div>
         </div>
       </section>
 
-      {/* FAQ */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8">Questions</h2>
-          
-          <div className="space-y-6">
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="font-bold text-lg mb-2">Can I say anything?</h3>
-              <p className="text-gray-600">
-                Almost. No illegal content, no doxxing, no explicit material. Political satire, hot takes, 
-                and promotional chaos? Absolutely. We'll reject anything truly awful but our bar is... low.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="font-bold text-lg mb-2">Is this actually real?</h3>
-              <p className="text-gray-600">
-                Yes. Real money, real ads, real website about a real politician. 
-                We're not affiliated with Nigel Farage. This is just capitalism, baby.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="font-bold text-lg mb-2">How do I pay?</h3>
-              <p className="text-gray-600">
-                Email us your ad content. We'll send you a payment link. Once paid, your ad goes live within 24 hours.
-              </p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow">
-              <h3 className="font-bold text-lg mb-2">Can I get a refund?</h3>
-              <p className="text-gray-600">
-                It's £3. But yes, if we haven't published your ad yet, we'll refund you. Once it's live, no refunds.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-16 bg-gradient-to-r from-purple-900 via-purple-700 to-pink-600 text-white">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Ready to Join the Chaos?</h2>
-          <p className="text-xl text-purple-200 mb-8">
-            £3/month. Your message. On a website about Nigel Farage. What could go wrong?
+      {/* Final CTA */}
+      <section className="py-12 px-4 bg-gradient-to-br from-purple-900 via-purple-700 to-pink-600 text-white">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">Ready?</h2>
+          <p className="text-xl text-purple-200 mb-6">
+            £3/month. Your message. On Nigel Farage's website.
           </p>
           <a 
-            href="mailto:ads@nigelfarage.co?subject=I Want to Advertise!&body=Tell us what tier you want and what your ad should say!"
-            className="inline-block bg-yellow-400 text-black px-8 py-4 rounded-lg text-xl font-bold hover:bg-yellow-300 transition-colors"
+            href="#pricing"
+            className="inline-block bg-yellow-400 text-black px-8 py-4 rounded-full text-xl font-bold hover:bg-yellow-300 transition-all transform hover:scale-105 shadow-lg"
           >
-            📧 Email Us: ads@nigelfarage.co
+            Get Your Spot Now ↑
           </a>
+          <p className="text-purple-300 text-sm mt-4">
+            Questions? Email <a href="mailto:ads@nigelfarage.co" className="underline">ads@nigelfarage.co</a>
+          </p>
         </div>
       </section>
 
+      {/* Disclaimer */}
+      <div className="bg-gray-100 py-4 px-4 text-center text-xs text-gray-500">
+        *All ads subject to approval. We reserve the right to reject anything truly awful. This site is not affiliated with Nigel Farage or Reform UK.
+      </div>
     </div>
   )
 }

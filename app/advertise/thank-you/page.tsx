@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Script from 'next/script'
 
 export const metadata: Metadata = {
   title: 'Thank You! - NigelFarage.co Advertising',
@@ -9,6 +10,14 @@ export const metadata: Metadata = {
 export default function ThankYouPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center px-4">
+      {/* Meta Pixel Purchase Event */}
+      <Script id="fb-purchase" strategy="afterInteractive">
+        {`
+          if (typeof fbq !== 'undefined') {
+            fbq('track', 'Purchase', {currency: 'GBP', value: 3.00});
+          }
+        `}
+      </Script>
       <div className="max-w-lg mx-auto text-center text-white">
         <div className="text-8xl mb-6">🎉</div>
         <h1 className="text-4xl font-bold mb-4">You're In!</h1>

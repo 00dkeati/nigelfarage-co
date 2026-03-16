@@ -139,15 +139,6 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-white text-gray-900 antialiased">
-        {/* For Sale Banner */}
-        <a 
-          href="https://flippa.com/12585348-premium-nigel-farage-authority-site-200-seo-optimized-pages-ranking-for-policy-keywords-daily-google-crawls-reform-uk-niche-with-massive-growth-potential"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block bg-gradient-to-r from-green-600 to-emerald-600 text-white text-center py-2 px-4 text-sm font-medium hover:from-green-700 hover:to-emerald-700 transition-all"
-        >
-          🏷️ This website is for sale — 200+ pages, ranking on Google, huge growth potential → <span className="underline">View on Flippa</span>
-        </a>
         <nav className="bg-[#1e3a5f] text-white">
           <div className="max-w-6xl mx-auto px-4 py-4">
             <div className="flex items-center justify-between">
